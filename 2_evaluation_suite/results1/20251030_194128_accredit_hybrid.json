@@ -1,0 +1,263 @@
+{
+    "report_info": {
+        "tenant_id": "accredit",
+        "retriever_type": "hybrid",
+        "timestamp": "2025-10-30T19:41:28.857010",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 4
+    },
+    "evaluation_results": [
+        {
+            "case_id": "ACC-01",
+            "question": "ما هي المراحل الرئيسية لطلبات الاعتماد؟",
+            "timing": {
+                "retrieval_seconds": 1.02,
+                "rerank_seconds": 0.29,
+                "total_seconds": 1.32
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 1.0,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "6/6",
+                    "found": [
+                        "إدارة الطلبات",
+                        "اإلجراءات التصحيحية",
+                        "اتخاذ القرار",
+                        "الدراسة المكتبية",
+                        "الزيارة الميدانية",
+                        "تسجيل الدخول"
+                    ],
+                    "missing": []
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "اإلجراءات التصحيحية:\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n10\n .\n يقوم مدير المجال بمراجعة طلب اإلغالق واعتماده أو\nإرسال مالحظاته لمسؤول االعتماد.\n11\n .في حال االعتماد، يتم االنتقال إلى مرحلة اتخاذ القرا\nر.\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 3,
+                    "rerank_score": "8.6156"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "اتخاذ القرار:\n1\n .\n ،بعد اعتماد مدير المجال لمرحلة اإلجراءات التصحيحية\nيقوم بإعادة الطلب إلى مسؤول االعتماد لترشيح أعضاء\nاللجنة الفنية، وإرسال القائمة لمدير المجال.\n2\n .يقوم مدير المجال بمراجعة قائمة أعضاء اللجنة الفني ة\nواعتمادها أو إرجاعها لمسؤول االعتماد للتعديل.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 8    \nlo\nlo\n\n{\ni? fo\n\nموافق عليه",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 4,
+                    "rerank_score": "8.5819"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "اإلجراءات التصحيحية:\n8\n .\n بعد االنتهاء من تعديل كافة المالحظات، يقوم قائد\nالفريق بإعداد التقرير النهائي وإرساله لمسؤول االعتم\nاد.\n9\n .في حال اعتماد تنفيذ اإلجراءات التصحيحية، يقوم م سؤول\nاالعتماد باعتماد إغالق الطلب.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‎ot ©‏\n© معد\n09 صب عمف\n\n‎omen suena ‏بي‎\n\n‏د قوعم فق\n\n‎lo\n‎le\n‎lo\n‏م‎\n\n‎est ot at\nroared\n\n‏منج شهادات ممنجت والعمنات والخدمات.\n\n‎to",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 9,
+                    "rerank_score": "8.5791"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "اتخاذ القرار:\n3\n .يقوم أعضاء اللجنة الفنية بدراسة الطلب وكتابة ال توصيات\nعليه، ومن ثم إرسالها إلى مدير المجال العتمادها.\n4\n .في حال اعتماد التوصيات، يقوم مدير المجال برفعها إ لى\nاإلدارة العليا التخاذ القرار النهائي على طلب االعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 3    \naes ‏بات‎\n\nتوصية 2\n\nlo\n\nto\n    OCR Text from Image 8    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 5,
+                    "rerank_score": "8.4932"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "دلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\nتسجيل الدخول\nإدارة الطلبات\nالدراسة المكتبية\nالزيارة الميدانية\nاإلجراءات التصحيحية\nاتخاذ القرار\n03\n04\n05\n06\n08\n13\nالمراحل الرئيسية\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 1,
+                    "rerank_score": "8.4636"
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-02",
+            "question": "كيف يمكنني مشاهدة الطلبات التي تم ترشيحي لها كقائد فريق؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0.17,
+                "total_seconds": 0.24
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.5,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "0/7",
+                    "found": [],
+                    "missing": [
+                        "إدارة الطلبات",
+                        "الصفحة الرئيسية",
+                        "تسجيلك للدخول",
+                        "رفضها",
+                        "عضو",
+                        "قائد",
+                        "قبولها"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "وصف حالة استخدام بحث عن (المستخدمين، الاشتراكات) موضحة في الجدول 3.14\n\nجدول خطأ: لم يُعثر على مصدر المرجع.14 وصف حالة استخدام بحث عن (المستخدمين، معلومات الدفع، الاشتراكات)\n\nبحث عن (المستخدمين، معلومات الدفع، الاشتراكات) Case Name المدير Actors يتم عرض بيانات (المستخدمين، معلومات الدفع، الاشتراكات) المراد البحث عنها. Description يجب ان تكون قاعدة بيانات التطبيق موجودة أو أن يكون المدير متصل بالأنترنت يجب ان لا يكون نص البحث عشوائي او غير معبر عن أسماء (المستخدمين، معلومات الدفع، الاشتراكات). Precondition يفتح المدير واجهة بحث عن (المستخدمين، معلومات الدفع، الاشتراكات). يدخل المدير اسم (المستخدمين، معلومات الدفع، الاشتراكات) المراد البحث عنه. يقوم النظام بـ استرجاع وعرض قائمة (المستخدمين، الاشتراكات) المطابقة للبحث. Operations يتم عرض قائمة (المستخدمين، معلومات الدفع، الاشتراكات) المطابقة اسمائها لنص البحث بنجاح. Outputs إذا لم يستطع النظام إيجاد قاعدة بيانات التطبيق، يتم عرض رسالة خطأ، ويطلب من المستخدم او المدير الاتصال بالأنترنت لأول مرة فقط لتحميل البيانات. إذا كان نص البحث عشوائي وغير معبر عن أسماء (المستخدمين، معلومات الدفع، الاشتراكات) يعرض واجهة فارغة فيها رسالة تخبر المستخدم او المدير انه لا توجد نبات او آفات تطابق نص البحث. Exceptions\n\nوصف حالة استخدام تصفح التشخيصات السابقة موضحة في الجدول 3.15\n\nجدول خطأ: لم يُعثر على مصدر المرجع.15 وصف حالة استخدام تصفح التشخيصات السابقة",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/project/project.docx",
+                    "original_rank": 20,
+                    "rerank_score": "8.1161"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "وصف حالة استخدام تصفح التشخيصات السابقة موضحة في الجدول 3.15\n\nجدول خطأ: لم يُعثر على مصدر المرجع.15 وصف حالة استخدام تصفح التشخيصات السابقة\n\nتصفح التشخيصات السابقة Case Name المستخدم Actors يتصفح المستخدم التشخيصات السابقة. Description يجب ان يكون المستخدم مسجل الدخول كعميل وليس كضيف. يجب ان يكون المستخدم مشترك في التطبيق.\nيجب ان يكون المستخدم قام بـ عمل تشخيص سابق. Precondition يفتح المستخدم واجهة عرض التشخيصات السابقة. يقوم النظام بـ استرجاع وعرض قائمة التشخيصات السابقة Operations المستخدم يتصفح الشخيصات السابقة بنجاح. Outputs إذا كان المستخدم مسجل الدخول كضيف يعرض النظام رسالة خطأ، ويطلب منه انشاء حساب او تسجيل الدخول. إذا كان المستخدم مسجل الدخول كعميل وغير مشترك في التطبيق يعرض النظام رسالة خطأ، ويطلب منة الاشتراك في التطبيق. إذا لم يقم المستخدم بعمل تشخيصات سابقة يعرض النظام رسالة خطأ، ويطلب منة القيام بـ عمل تشخيص. Exceptions\n\nوصف حالة استخدام الاشتراك في التطبيق موضحة في الجدول 3.16\n\nجدول خطأ: لم يُعثر على مصدر المرجع.16 وصف حالة استخدام الاشتراك في التطبيق",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/project/project.docx",
+                    "original_rank": 28,
+                    "rerank_score": "7.9860"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    OCR Text from Image 1    \nBoren\n‏ومسا سمسزيق ام‎\n\nsupport\nses ‏اللتواصل و‎\n\nLearning Management System — Oman Branch\n\n1 see tee\n    OCR Text from Image 2    \nFaculties |\n\n1 5 Online users\nYogramme Specifications 1\n\ndora srs Oust 8 ‏سنح‎\n‎Qeadent Handbooks  “Courses Catalogues  Br Dr Harned Al vetenadl gp\n\nOther users (3)\nFaculty of Faculty of Faeulty of Faculty of reer ee\nBusiness Computer Language ducation id\n‘Studies Studies Studies Studies: FR AR112 [AKI 12) Arabic\nCommunication Skit\nCED A 65115 1005179) smal\nCB \nAOU £% Dy laws\n\nBusiness Management\nClick here for AOU Polices and Bylaws\n\n* الل لس واج جح للدت\n‎Blog mers‏\n    OCR Text from Image 3    \nTuesday  1 ‏الم كوم‎\nMicrosoft Teams Access code: fofd7as\n\nCourse Slides\n\nالمحاضرات والعلفات الخاصة بالعقرر\n\nالكتاب الالكترونى للمقرر",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": 22,
+                    "rerank_score": "7.9664"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "13\n \n11\n. مدفوعات الطالب : يمكن إيجاد قائمة مدفوعات الطالب في أسفل صفحة عرض معلومات الطالب وتتكون\n اسم الطالب، السعر، نوع الطلب، حالة الطلب، وطريقة الدفع وغيرها من معلومات الدفع الخاصة بالطالب\n:كما موضحة في الشكل ادناه \n \n2.4\n \n طلبات التسجيل \nعند الدخول الى ق سم طلبات التسجيل من القائمة الجانبية لواجهة النظام تظهر لك النافذة الخاصة بهذا\n القسم :حيث يظهر فيها ما يلي وكما في الشكل االتي \n2.4.1\n \n احصائيات طلبات التسجيل \n في واجهة قسم طلبات التسجيل يظهر شكالن في األعلى األول وعلى اليمين هو طلبات التدقيق\nالجامعة \n وطلبات التد قيق للذكور ولإلناث اما الشكل الثاني على اليسار يبين عدد الطلبة المسجلين \n الكلي وعدد\n :الطلبة المسجلين من االناث والذكور وكما في الشكل االتي \n\n    OCR Text from Image 2    \n2 كد رئيس جامعة ‎Hala‏\n\nاذ وزارة التعليم العالي والبحث العلمي نه «زارة التعليم العالي والبحث العلمي > جامعة بغداد\nكلمة المرور\n\nuhfuwhefuhfg8478756 ‏تظام إدارة الجامعات‎ Yn}\n‏البرنامج الدرانسي‎\n\nادارة الطلاب. 5\n\nalll ‏معلومات‎ 1\n\n4] طلبات التسجيل\n\nات القبول السيرة الدراسية الرسوم الموادالمختارة ذالةالموادالمختارة مدفوعات الطالب\nادارة البرتامج الدراسي.\nمدفوعات الطالب\n\nا البرامج الدراسية.\n\nالمواد الدراسية.\n\nباحو وي اسم الطالب السعر نوع ‎ails ull‏ الطلب. طريقة الدقع حالة الدقع السعر النهائي\n\nعن الجدول الأسيوعى نور محمد عبد محمد 66 000 ‎pending tabadul placed enrollment 1D‏ 66 000 مها\n\n2 10 aan\n\nعرض نتيجة واحدة.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": 24,
+                    "rerank_score": "7.8922"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "اتخاذ القرار:\n3\n .يقوم أعضاء اللجنة الفنية بدراسة الطلب وكتابة ال توصيات\nعليه، ومن ثم إرسالها إلى مدير المجال العتمادها.\n4\n .في حال اعتماد التوصيات، يقوم مدير المجال برفعها إ لى\nاإلدارة العليا التخاذ القرار النهائي على طلب االعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 3    \naes ‏بات‎\n\nتوصية 2\n\nlo\n\nto\n    OCR Text from Image 8    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 11,
+                    "rerank_score": "7.8707"
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-03",
+            "question": "ماذا يفعل قائد الفريق بعد انتهاء مرحلة الدراسة المكتبية؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0.15,
+                "total_seconds": 0.21
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.7,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "2/5",
+                    "found": [
+                        "إعادة الطلب",
+                        "مسؤول االعتماد"
+                    ],
+                    "missing": [
+                        "اكتمال تقييم",
+                        "قائد الفريق",
+                        "مراجعته"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "اإلجراءات التصحيحية:\n8\n .\n بعد االنتهاء من تعديل كافة المالحظات، يقوم قائد\nالفريق بإعداد التقرير النهائي وإرساله لمسؤول االعتم\nاد.\n9\n .في حال اعتماد تنفيذ اإلجراءات التصحيحية، يقوم م سؤول\nاالعتماد باعتماد إغالق الطلب.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‎ot ©‏\n© معد\n09 صب عمف\n\n‎omen suena ‏بي‎\n\n‏د قوعم فق\n\n‎lo\n‎le\n‎lo\n‏م‎\n\n‎est ot at\nroared\n\n‏منج شهادات ممنجت والعمنات والخدمات.\n\n‎to",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 2,
+                    "rerank_score": "7.9283"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "40\nإدارة العقود\nإعداد العقود\n• و يح القضايا المعلقة\nوالمفا\nو رات\n(فقط إذا لزا األمر)\n•\n طاب التوايا(إ وجد)\n وكيع العقد\n•\n يتح توقيعنه ن ل فتررة صر حية\nالعطاء\n•\n العقننننند ًملرررررزم كانونرررررا\nبتوقينننننع\nالطرفين\n•\n منننن قبنننل إدارة المشرررروع ذات\n الصلة\nبعد ايرساء\nإنهاء العقد\n•\n عادة من ل\nإجراء على التحو الواجب :\n استيفاء\n جميع االلتزامات الواقعة على ك الطرفين(\n ي\n التسليح الدفع)\n• ا ذلف:\no الخرق\no استحالة األداء\no اال فاق المتبادل\nإدارة العقود\n•مراكبة أداء الموردين\n•المدفوعات\n•حر المتازعات\n•التعدي ت والتمديدات والتوديدات\n•\n اال ت فات(عقود األعمال)\nدورة الشراء :\n إ مام العقد2\n \n5",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "original_rank": 19,
+                    "rerank_score": "7.9248"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "اتخاذ القرار:\n1\n .\n ،بعد اعتماد مدير المجال لمرحلة اإلجراءات التصحيحية\nيقوم بإعادة الطلب إلى مسؤول االعتماد لترشيح أعضاء\nاللجنة الفنية، وإرسال القائمة لمدير المجال.\n2\n .يقوم مدير المجال بمراجعة قائمة أعضاء اللجنة الفني ة\nواعتمادها أو إرجاعها لمسؤول االعتماد للتعديل.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 8    \nlo\nlo\n\n{\ni? fo\n\nموافق عليه",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 7,
+                    "rerank_score": "7.8939"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    OCR Text from Image 1    \ntest TMA\n\ntest IMA\n\n8 lest IMAdoor 15 February 2021  1044 AM.\nSubmission status\n\nGrading status Not graded\n\n‘Due date veal  2 Mate 21023  12K AN\nTime remaining 14 tay 1? hours\nLast modified Moruday  15 Fetruary 2021  1102 AM\n\n15 February 2021  1102 AM\n\n‘edit submission emove submission\n    OCR Text from Image 2    \nSubmission status\n\n=\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\n\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions :\n‘WA Test TMAdocx 15 February 2021  11:02 AM\n\nEdit submission Remove submission 1",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": 23,
+                    "rerank_score": "7.8482"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "اتخاذ القرار:\n3\n .يقوم أعضاء اللجنة الفنية بدراسة الطلب وكتابة ال توصيات\nعليه، ومن ثم إرسالها إلى مدير المجال العتمادها.\n4\n .في حال اعتماد التوصيات، يقوم مدير المجال برفعها إ لى\nاإلدارة العليا التخاذ القرار النهائي على طلب االعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 3    \naes ‏بات‎\n\nتوصية 2\n\nlo\n\nto\n    OCR Text from Image 8    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 9,
+                    "rerank_score": "7.8165"
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-04",
+            "question": "هل يمكن للجهة مراجعة تقرير الزيارة الميدانية؟ وماذا تفعل بعد ذلك؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0.15,
+                "total_seconds": 0.21
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.62,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/4",
+                    "found": [
+                        "اإلجراءات التصحيحية"
+                    ],
+                    "missing": [
+                        "تحليل األسباب الجذرية",
+                        "تقوم الجهة",
+                        "مراجعة تقرير الزيارة"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "‏نموذج قائمة بالأجهزة. التأكد من أن العمليات والإجرامات اللازمة لنظام الإدارة يتم إنشاؤها وتنفيذها والمحافظة ‎Mode‏ غير مدخ ‎eu‏ “\nاملد واتمعير المجعمة. تعديم ‎ee Aaa‏ عن أده نظام الإحاية وأي حاجة للتحسيو؟.\n\n‎‘og ‏المستخدمة‎\n\n‎‘oi ‏هل جميع الوثائق والعمليات والأنظمة والسحلات إل المتعلقة باستيفاء متطليات 17020 150/166 ثم تخمينها أو الإشارة إلبها أو م ربطها بوثائق نظام‎ 8.24 omens\n\n‏انموذج ‎lal ab‏ 42.5 هل يمكن لجميع الأراد المشاكين في أنشطة التتيش الوصول إلى أجل ‎Ms‏ نظام الإدارة والمعلومات ذلت الصلة التي ‎Sn‏ على مسؤوليتهم؟.\n‎OQ‏ في جمة تشيم المطابقة\n\n‎aa‏ اسم الوتيقه ورمزها [الكود). رقم ‎idl‏ إختر الوثيقة.\n‎[ols] eto 3966 na wma a‏\n\n‏الينية بين المخياك\n\n‎oB 5 5 7 oe\n\n‏0 سس 0 معط | ‎sent)‏ أن موسي\n\n‎we ‏سجل‎\n    OCR Text from Image 10    \neae sew | see\n\noo\nee",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 13,
+                    "rerank_score": "7.8164"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "اتخاذ القرار:\n3\n .يقوم أعضاء اللجنة الفنية بدراسة الطلب وكتابة ال توصيات\nعليه، ومن ثم إرسالها إلى مدير المجال العتمادها.\n4\n .في حال اعتماد التوصيات، يقوم مدير المجال برفعها إ لى\nاإلدارة العليا التخاذ القرار النهائي على طلب االعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 3    \naes ‏بات‎\n\nتوصية 2\n\nlo\n\nto\n    OCR Text from Image 8    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 12,
+                    "rerank_score": "7.7463"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "اإلجراءات التصحيحية:\n8\n .\n بعد االنتهاء من تعديل كافة المالحظات، يقوم قائد\nالفريق بإعداد التقرير النهائي وإرساله لمسؤول االعتم\nاد.\n9\n .في حال اعتماد تنفيذ اإلجراءات التصحيحية، يقوم م سؤول\nاالعتماد باعتماد إغالق الطلب.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‎ot ©‏\n© معد\n09 صب عمف\n\n‎omen suena ‏بي‎\n\n‏د قوعم فق\n\n‎lo\n‎le\n‎lo\n‏م‎\n\n‎est ot at\nroared\n\n‏منج شهادات ممنجت والعمنات والخدمات.\n\n‎to",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 4,
+                    "rerank_score": "7.7049"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "الزيارة الميدانية:\n3\n .يقوم فريق التقييم بإجراء عملية التقييم أثناء ا لزيارة\nالميدانية والتحقق من مطابقة كافة البنود.\n4\n .\n يقوم قائد الفريق بإرسال تقرير الزيارة الميدانية(ا لمكون من\nعناصر المجال، وقوائم التحقق، والتوصيات )إلى مسؤول االعتماد للمراج عة\nواالعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \nطلب الإعتماد\n\nخطة الزيارة الميدانية.\n@ الأجهزة المستخدمة 652\n© الموضفين 51م\n\n© العواد المرجعية 652\n\nwu ©\n\n5 sug 5\nibe   ‏مقيمة‎\n\npati ‏أضف‎\n\n‎dbo ©‏ ل غيرمطيق\nسيل ‎enone‏\n\n‏نقطةقوة ‎١‏ ان نقطة ضعف\n\n‏سجل مناحظاتك\n\n‎Choose Fite\n\n‎No le chosen\n\n‎Anazi\n\n‏إعداد ‎ig‏ مطليق\n    OCR Text from Image 8    \nSool ‏إعتماد‎\n\nقوالم التحفق دراسة مكتبية\n\nخطة الزيارة الميدائية. الزارة ‎taal‏\n\nlas 0 ‏اسم‎\n\nEnvironmental (Water) Determination of Heavy Metals AG  AL AS  BBA  BE. Bl  CA. CD  CO. CR. CU. FE  HG  K. LL MG  MN  MO  NA. NI PPB \n5 58.56 SN.V&2N\n\nEnvironmental (Soil) Determination of Heavy Metals (As. Bs  Be. Cd  Cr  Co. Cu  Fe. Pb  Mn  Hg. Mo  Ni Se  TLV & Zn)\nEnvironmental (Water \n\nSoil) Determination of pH\n\nEnvironmental (Water \n\n‘soil) Determination of Conductivity\n\nEnvironmental (Water \n\na Determination of TOS & Salinity\n\nEnvironmental (Water) Determination of Alkalinity",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 3,
+                    "rerank_score": "7.6437"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "وصف حالة استخدام تصفح التشخيصات السابقة موضحة في الجدول 3.15\n\nجدول خطأ: لم يُعثر على مصدر المرجع.15 وصف حالة استخدام تصفح التشخيصات السابقة\n\nتصفح التشخيصات السابقة Case Name المستخدم Actors يتصفح المستخدم التشخيصات السابقة. Description يجب ان يكون المستخدم مسجل الدخول كعميل وليس كضيف. يجب ان يكون المستخدم مشترك في التطبيق.\nيجب ان يكون المستخدم قام بـ عمل تشخيص سابق. Precondition يفتح المستخدم واجهة عرض التشخيصات السابقة. يقوم النظام بـ استرجاع وعرض قائمة التشخيصات السابقة Operations المستخدم يتصفح الشخيصات السابقة بنجاح. Outputs إذا كان المستخدم مسجل الدخول كضيف يعرض النظام رسالة خطأ، ويطلب منه انشاء حساب او تسجيل الدخول. إذا كان المستخدم مسجل الدخول كعميل وغير مشترك في التطبيق يعرض النظام رسالة خطأ، ويطلب منة الاشتراك في التطبيق. إذا لم يقم المستخدم بعمل تشخيصات سابقة يعرض النظام رسالة خطأ، ويطلب منة القيام بـ عمل تشخيص. Exceptions\n\nوصف حالة استخدام الاشتراك في التطبيق موضحة في الجدول 3.16\n\nجدول خطأ: لم يُعثر على مصدر المرجع.16 وصف حالة استخدام الاشتراك في التطبيق",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/project/project.docx",
+                    "original_rank": 23,
+                    "rerank_score": "7.6199"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,197 @@
+{
+    "report_info": {
+        "tenant_id": "scholl",
+        "retriever_type": "faiss",
+        "timestamp": "2025-10-30T19:56:03.047246",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 3
+    },
+    "evaluation_results": [
+        {
+            "case_id": "SCH-01",
+            "question": "كيف أرفع الواجب الفصلي (TMA)؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 1.0,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "5/5",
+                    "found": [
+                        "Add Submission",
+                        "TMA",
+                        "إختيار المقرر",
+                        "إضافة التقديم",
+                        "رفع الواجبات الفصلية"
+                    ],
+                    "missing": []
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    OCR Text from Image 1    \n+ No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n‎ov stusents tinide 20v9 21 aocessinie‏ ها\n\n‎BD tute survey\n\n‎© 1114711 [TM477] Graduation Project Part 1\n\n‎Teacher Yousef 0771225 Graduation Project\nTeacher: Sherimon 0711362\n\n‎© 111355 [TM355] Communications Technology\nTeacher: Raja Wascern 0711010 Commurticotions Tesmlogy\n\n‎All courses \n    OCR Text from Image 2    \n15   Oman Home Dashboard My courses Site administration\n\nPRACTICAL SKILL (PPT)\n\nC  Library Template\n    OCR Text from Image 3    \ntest TMA\n\nlead TMA \nTest TMAdooe 15 February 2021  10 44 AM\n\nSubmission status\nSubmission No attempt\n\nGrading status Not isco\n\nTuoneay  2 March 2021  120 AM < —\nTime remaining 14 days 13 hours\nLast modified  \n\n+ | مد |\n\nYou have not made a submission yet.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    OCR Text from Image 1    \ntest TMA\n\ntest IMA\n\n8 lest IMAdoor 15 February 2021  1044 AM.\nSubmission status\n\nGrading status Not graded\n\n‘Due date veal  2 Mate 21023  12K AN\nTime remaining 14 tay 1? hours\nLast modified Moruday  15 Fetruary 2021  1102 AM\n\n15 February 2021  1102 AM\n\n‘edit submission emove submission\n    OCR Text from Image 2    \nSubmission status\n\n=\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\n\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions :\n‘WA Test TMAdocx 15 February 2021  11:02 AM\n\nEdit submission Remove submission 1",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    OCR Text from Image 1    \nBoren\n‏ومسا سمسزيق ام‎\n\nsupport\nses ‏اللتواصل و‎\n\nLearning Management System — Oman Branch\n\n1 see tee\n    OCR Text from Image 2    \nFaculties |\n\n1 5 Online users\nYogramme Specifications 1\n\ndora srs Oust 8 ‏سنح‎\n‎Qeadent Handbooks  “Courses Catalogues  Br Dr Harned Al vetenadl gp\n\nOther users (3)\nFaculty of Faculty of Faeulty of Faculty of reer ee\nBusiness Computer Language ducation id\n‘Studies Studies Studies Studies: FR AR112 [AKI 12) Arabic\nCommunication Skit\nCED A 65115 1005179) smal\nCB \nAOU £% Dy laws\n\nBusiness Management\nClick here for AOU Polices and Bylaws\n\n* الل لس واج جح للدت\n‎Blog mers‏\n    OCR Text from Image 3    \nTuesday  1 ‏الم كوم‎\nMicrosoft Teams Access code: fofd7as\n\nCourse Slides\n\nالمحاضرات والعلفات الخاصة بالعقرر\n\nالكتاب الالكترونى للمقرر",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "5\n الخطـوة الرابعـة: اختيـار الملـف (الواجـب) المـراد تحميلـه مـن خـ اال الضغـط علـى أيقونـة الورقـة\nأو أيقونـة المجلـد فـي حالـة رفـع أكثـر مـن ملـف\n ثـم كتابـة عنـوان الملـف ثم Choose File ثــم Upload a file \u0000الخطـوة الخامسـة: الضغـط علـى\nUpload this File الضغـط علـى\n الخطـوة السادسـة: بعـد التحميـل يجـب أن يظهـر الملـف المرفـق بشـكل واضـح كمـا هـو موضـح\n:Save changes بالصـورة ثـم الضغـط علـى\n\n    OCR Text from Image 1    \ntest IMA\n\nfest TMA \nHie subrrissions Masxirnurn file: ‏عمق‎ 20MM  nexium raumtare of files:\nose\n\n© tiles\n\n~~\n\n‘You can diag and drop files hee to add ther\n\n.  FINAL TAKE HOME EXAM EF00) Jump\n    OCR Text from Image 2    \n3\n\nكتابة عنوان الملف\n\n٠\n\nUpload this file\n\nAttachment\n\nChoose File | No file chosen\n\nSave as\n\nAuthor\n\nTurki Al Hinai\n\nChoose license | all rights reserved\n\n4\n\nFile picker\n\nth Server files\n\n‎Recent files‏ ص\n\n‎fa Upload a file\n\n‎th Private files\n    OCR Text from Image 3    \n(Mansur filesize: 2080  maximum nuraber of fil\n\ntest TMA\n\ntest IMA\nTest ‏برس مك1 15 ملسا‎ 2021  Oaks AM\nHie submissions\npoe\n3575\n‏ا‎ 4\n‏دك‎\n\nTest IMAdaex\n\n+ ng\n\nurn Lo.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-02",
+            "question": "دخلت على المقرر، كيف أجد المحاضرات والكتاب؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 0.88,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "3/4",
+                    "found": [
+                        "my courses",
+                        "المحاضرات",
+                        "الملف المراد تحميله"
+                    ],
+                    "missing": [
+                        "الكتاب الإلكتروني"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    OCR Text from Image 1    \nBoren\n‏ومسا سمسزيق ام‎\n\nsupport\nses ‏اللتواصل و‎\n\nLearning Management System — Oman Branch\n\n1 see tee\n    OCR Text from Image 2    \nFaculties |\n\n1 5 Online users\nYogramme Specifications 1\n\ndora srs Oust 8 ‏سنح‎\n‎Qeadent Handbooks  “Courses Catalogues  Br Dr Harned Al vetenadl gp\n\nOther users (3)\nFaculty of Faculty of Faeulty of Faculty of reer ee\nBusiness Computer Language ducation id\n‘Studies Studies Studies Studies: FR AR112 [AKI 12) Arabic\nCommunication Skit\nCED A 65115 1005179) smal\nCB \nAOU £% Dy laws\n\nBusiness Management\nClick here for AOU Polices and Bylaws\n\n* الل لس واج جح للدت\n‎Blog mers‏\n    OCR Text from Image 3    \nTuesday  1 ‏الم كوم‎\nMicrosoft Teams Access code: fofd7as\n\nCourse Slides\n\nالمحاضرات والعلفات الخاصة بالعقرر\n\nالكتاب الالكترونى للمقرر",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "3\n \n1. المقدمة \n تحتوي هذه الوثيقة على طريقة استخدام نظام معلومات الطالب من قبل مسؤول\nالجامعة \n في النظام\nبالطريقة الصحيحة بالتفصيل وبشكل مقسم على محتويات النظام ح\nي ث باإلمكان الذهاب الى قسم النظام\n المراد الوصول اليه من جدول المحتويات الموجود في اعلى الوثيقة كما توضح كيفية التعامل مع\n األخطاء التي من المحتمل ظهورها اثناء االستخدام، تسهل قراءة هذه الوثيقة تعلم استخدام النظام\n .وطريقة التعامل مع األخطاء بالصورة الصحيحة \n2\n . محتويات النظام \n محتويات النظام هي األقسام الرئيسة في النظام ويمكن الوصول لها من داخل النظام من خالل استخدام\n.القائمة الجانبية في النظام نفسه \n2.1\n \n تسجيل الدخول \n لتسجيل الدخول الى حسابك الخاص كل ما عليك فعله هو ادخال اسم المستخدم الخاص بك وكلمة\n :المرور في الحقول المخصصة لها كما موضح في الشكل االتي \n \n في حال واجهت مشكلة في تسجيل الدخول الى حسابك قم بالتواصل مع مدير نظام الموارد البشرية في\nال\nجامع\nة \n لحل\nالمشكلة، \n كما يكنك خيار تذكرني من الحفاظ على تسجيل الدخول حتى بعد اغالق المتصفح\nدون الحاجة الى تسجيل الدخول مرة أخرى. \n\n    OCR Text from Image 2    \nوزارة التعليم العالي والبحث العلمي.\n\nالدخول إلى حسابك\n\nالبريد الإلكتروني”\n\nuniversityadmin@mohesr.gov.iq",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "24\n \n2.6.1\n \n احصائيات المواد الدراسية \n في واجهة قسم\nالمواد الدراسية \n يظهر ثالث\nاشكال \n في األعلى األول هو\nعدد ا لمواد\nالدراسية ما ا \n الشكل\n الثاني يبين عدد\nالمواد االجبارية \n والشكل الثالث تظهر عدد المواد االختيارية \n :وكما في الشكل االتي \n \n2.6.2\n \n البحث والتصفية \n من خالل واجهة\nالمواد الدراسية \n يمكنك البحث عن مادة دراسية من خالل ادخال االسم كتابة وأيضا\n البحث من خالل التصفيات حيث يمكنك الضغط على الزر المجاور لمستطيل البحث لتظهر لك نافذة\n :خاصة للتصفيات كما موضح في الشكل االتي \n\n    OCR Text from Image 2    \n9)) وزارة التعليم العالي والبحث العلمي\n\n2 نظام إدارة الجامعات\n\nادارة الطلاب.\n‎ET‏ معلومات الطلاب\n\n4] طلبات التسجيل\n\nادارة اليرتامج الدراسي.\n‎CF‏ البرامج الدراسية\n\n‎OA‏ المواد الدراسية\n\n‏325 الشعب والمجاميع\n\n‏الجدول الأسيوعى\n\n‏المواد الدراسية > القائمة\n\n‏المواد الدراسية\n\n‎all algal ‏عدد‎\n\n‎7\n\n‏اسم المادة باللغة العربية\n\n‏اللغة العربية.\n\n‏رياضيات1\n\n‏عدد المواد الاجبارية\n6\nنظام التعليم الاكاديمي رمز المادة تصنيف المادة.\n0] نظام بولونيا 0517 3 أساسية\n2] نظام بولونيا 45 سائدة\n‎plas OD‏ يولونيا ‎medt‏ آساسية\n\n‏يك رئيس جامعة بغداد اا\n<< وزارة التعليم العالي والبحث العلمي > جامعة بغداد\n\n‏الاختيارية\n‏0\n‏3\n‏نوع النتيجية حالةالمادة رسوم المادة مستوى تو\nدرجة 1 ‎auls 1000 souiio‏\nنجاح/رسوب متشور 000\n\n‏درجة متشور ‎laps‏ قسم",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "22\n \n \n والخيار الثاني لعرض مواد \n البرنامج الدراسي المحدد ويمكن أيضا البحث عن\nمادة \n محدد\nة \n او البحث\n بالتصفية وتحديد االعمدة ايضا وكما موضح في الشكل :االتي \n \n\n    OCR Text from Image 2    \nادارة الطلاب.\n\n‎ET‏ معلومات الطلاب\n\n‎[A‏ طلبات التسجيل\n\n‏ادارة البرتامج الدراسي\n‎CF‏ البرامج الدراسية\n\n‏المواد الدراسية.\n\n‏الشعب و المجاميع\n\n‏الجدول الأسيوعى\n\n‎alt‏ والمنتشأت\n\n‎gy‏ الابنية والمنتشأت\n\n‏ادارة البرنامج الدراسي > طلاب البرتامج الدراسي\n\n‏طلاب البرنامج الدراسي\n\n‎aac‏ الطلاب\n\n‏طلاب البرنامج الدراسي\n\n‏عدد الطلاب ذكو\n\n‎0\n\n‎4\n\n‏لايوجد طلاب في هذا البرنامج الدراسي\n\n‏يك رئيس جامعة بغداد اا\n<< وزارة التعليم العالي والبحث العلمي > جامعة بغداد\n\n‎éaacill\n\n‏نا\n\n‏صورة الملف الشخصي.\n\n‏نا\n\n‏الأسم الرباعي بااللغة العربية.\n\n‏نا\n\n‏الجنس\n\n‏نا\n\n‏البريد الالكتروني\n\n‏نا\n\n‏الهاتف\n    OCR Text from Image 4    \nوزارة التعليم العالي والبحث العلمي\n\nادارة الطلاب\n\nWMI ‏معلومات‎ ET\n\n‎F‏ طلبات التسجيل\n\n‏ادارة البرتامج الدراسي\nها البرامج الدراسية.\n\n‎algal‏ الدراسية\n\n‏08\n‏كج الشعب والمجاميع\n&\n\n‏الجدول الأسيوعى\n\n‎at‏ والمنتشأت\n\n‏كر الابتية والمتشأت\n\n‏عدد المواد في هذا البرنامج\n\n‎0\n\n‎5\n\n‏اه\n\n‏في هذا البرنامج\n\n‏مدع\n\n‎x\n\n‏لا توجد مواد في هذا البرنامج الدراسي\n\n‏رئيس جامعة ‎Halas‏\n‏وزارة التعليم العالي والبحث العلمي > جامعة بغداد",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "23\n \n \n \n2.6\n \n المواد الدراسية \n من القائمة الجانبية وفي قسم إدارة البرنامج الدراسي يوجد قسم المواد الدراسية والذي يمكنك من خالله\n الوصول إلحصائيات المواد الدراسية وادارتها و\nتحتوي على : \n\n    OCR Text from Image 2    \nmm/dd/yy\n\nmm/dd/yy\n    OCR Text from Image 3    \n— 5 بك رئيس جامعة بقداد ‎١١‏\n‏وزارة التعليم العالي والبحث العلمي نه وزارة التعليم العالي والبحث العلمي > جامعة بغداد\n\nعدد الوحدات الكلي\nادارة الطلاب\n\nاعلى ‎aay‏\n‎ET‏ معلومات الطلاب\n\nاقل درجة\n4] طلبات التسجيل\n\nعدد الساعات المطلوبة مسبقاً التسجيا\n\nعدد المواد في هذا البرنامج\n\nادارة البرتامج الدراسي 0 عدد الوحدات المطلوبة للتسجيل.\n\nا البرامج الدراسية.\n\nوقت الإتشاء\n‎algal‏ الدراسية\n\n08\nكج الشعب والمجاميع\n\nالجدول الأسيوعى\n\nx\n\nالابتية والمتشأت.\n\nلا توجد مواد في هذا البرنامج الدراسي\nقر الذبنية والمتشأت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-03",
+            "question": "أريد التأكد من أن واجبي تم تسليمه بنجاح، كيف أعرف؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.62,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/4",
+                    "found": [
+                        "Submitted for grading"
+                    ],
+                    "missing": [
+                        "الملف مرفق",
+                        "تم رفع الملف بنجاح",
+                        "حالة التقديم"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    OCR Text from Image 1    \ntest TMA\n\ntest IMA\n\n8 lest IMAdoor 15 February 2021  1044 AM.\nSubmission status\n\nGrading status Not graded\n\n‘Due date veal  2 Mate 21023  12K AN\nTime remaining 14 tay 1? hours\nLast modified Moruday  15 Fetruary 2021  1102 AM\n\n15 February 2021  1102 AM\n\n‘edit submission emove submission\n    OCR Text from Image 2    \nSubmission status\n\n=\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\n\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions :\n‘WA Test TMAdocx 15 February 2021  11:02 AM\n\nEdit submission Remove submission 1",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    OCR Text from Image 1    \n+ No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n‎ov stusents tinide 20v9 21 aocessinie‏ ها\n\n‎BD tute survey\n\n‎© 1114711 [TM477] Graduation Project Part 1\n\n‎Teacher Yousef 0771225 Graduation Project\nTeacher: Sherimon 0711362\n\n‎© 111355 [TM355] Communications Technology\nTeacher: Raja Wascern 0711010 Commurticotions Tesmlogy\n\n‎All courses \n    OCR Text from Image 2    \n15   Oman Home Dashboard My courses Site administration\n\nPRACTICAL SKILL (PPT)\n\nC  Library Template\n    OCR Text from Image 3    \ntest TMA\n\nlead TMA \nTest TMAdooe 15 February 2021  10 44 AM\n\nSubmission status\nSubmission No attempt\n\nGrading status Not isco\n\nTuoneay  2 March 2021  120 AM < —\nTime remaining 14 days 13 hours\nLast modified  \n\n+ | مد |\n\nYou have not made a submission yet.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "3\n .يقديم رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n26\n\n لشرد عشإ المناقصة ، ة مل المتيشبام التالةة(\n تم تكةةفها لمناقصة محدد)\nاالستبيانات : قوم المدورد ن بإ مدال األسدئشة عشدإ اإلنترندت والتدي يشبهدا مكتدب األ مدم المتحدد\nلخدمام المشار ع\nالقائمةة المرجعيةة للوثةائق : قدوم المدورد ن بتحمةدل الوثدائ التدي يشبهدا مكتدب األ مدم المتحدد\nلخدمام المشار ع\nيفاصةيل العةرض المةالي : قدوم المدورد ن بإدخدال ماشومدام األسداار التدي يشبهدا مكتدب ا ألمدم\n المتحد لخدمام المشار ع(اجمالي الارض المالي، الامشة)\nبمجرد تحمةل ل الماشومام الميشوبة، سةتغةر لون الارض بجانب ل عالمة تبو ب من الشون\n األحمر ) (\n الإ الشون األخضر .) (\n في تشك المرحشة، ةنقر فوق عالمة التبو ب\nإ\nرسال ،\n ثم ةنقر فوق الزر\nإرسةال\nإلرسدال رد الدإ مكتدب األمدم المتحدد لخددمام المشدار ع .ال\n مك ندك\nاإلرسدال حتدإ ا تمدال دل الماشومدام اإللزامةدة وفقدط ااا دان الدك قبدل الموعدد النهدائي لت قدد م\nالاياء\n\n بمجرد اإلرسال، تتغةر الحالة من\nمسوةة الإ يم التقديم\nوستتشقإ اشاارا عبر الب\nر د اإللكتروني\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17875\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nDraft\n\nYour submission is still in Draft status and you may continue to add or edit informati\n\n‎can only submit a vendor submission if before the deadline.‏ نا",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "Draft\n\nYour submission is still in Draft status and you may continue to add or edit informati\n\n‎can only submit a vendor submission if before the deadline.‏ نا\n\n‎@ | TENDER INFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n\n‎QUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS. SUBMIT A\n\n‎> Bidder Information Form A\n    OCR Text from Image 5    \n77",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "إدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‘Hussain All Alzahrani  lo\n\nطلبات التقييم.\n‎ap ote‏\n\n29/002020 ‏مطليفمطية‎ Gg At ‏العامة‎ ha\n\n11/10/2009 aise Ging Ae iy al\n\n11/10/2009 paises Aa ity al yal\n\nz2n7073 fant ycse Gig inl a\n\nsrore23 صصرطم‎ ١ ‏اليد‎ 565 0000١ SERVICES SAUOLARABALTO\n\n7 st\nedie\n75 wn\neine\n‏مولع عليه‎\n‏موق عليه‎\n\nYin ‏لج‎\n\n+ © هت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": "N/A",
+                    "rerank_score": "N/A"
+                }
+            ]
+        }
+    ]
+}

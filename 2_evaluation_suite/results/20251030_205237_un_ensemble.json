@@ -1,0 +1,220 @@
+{
+    "report_info": {
+        "tenant_id": "un",
+        "retriever_type": "ensemble",
+        "timestamp": "2025-10-30T20:52:37.032505",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 4
+    },
+    "evaluation_results": [
+        {
+            "case_id": "UN-01",
+            "question": "أنا مورد جديد، كيف أبدأ وأسجل في البوابة؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.7,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/4",
+                    "found": [
+                        "www.ungm.org"
+                    ],
+                    "missing": [
+                        "إنشاء تسجيل الدخول",
+                        "بوابة الأمم المتحدة العالمية للمشتريات",
+                        "تسجيل الموردين"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "UNOPS eSourcing training for Vendors v1.3\n11\nالتسجيل أمر بالغ األهمية :الن من ةجدل الوصدول الدإ التفاصدةل الكامشدة لمناقصدة مكتد ب األمدم\nالمتحد لخدمام المشار ع واالسدتجابة ألي مناقصدة فدي نظدام الشدراء اإللكتروندي لمكتد ب األمدم\n المتحد لخدمام المشار ع، بمجرد قةامك بالتسجةل، تكدون\nيفاصةيل يسةجيل الةدلول هةي نفسةاا\nبالنسبة لبوابة األمم المتحد الاالمةة لشمشتر ام ومكتب األمم المتحد لخدمام المش\nار ع.\n\n التسجةل في المسةتوى األساسةي داف، ألن مكتدب األمدم المتحدد لخددمام المشدار ع ال شدترط\nالتسجةل في المستوى األول والمستوى ال اني.\n\n ستغرق التسجةل أقل من10\n ةقائق إلتمام.\n\n ُرجإ مالحظة ةن التسجةل\nمجاني\nفي بوابة األمم المتحد الاالمةة لشمشتر ام.\nالتسجيل في بوابة األمم المتحدة العالمية للمشتريات\n2\n .التسجيل في بوابة األمم المتحدة العالمية للمشتريات\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "كيفية التسجيل\nUNOPS eSourcing training for Vendors v1.3\n12\n\n اذهب إلى www.ungm.org\n\n ةنقر فوق قسم\nالتسجيل\nاتبع التاشةمام التي تظهر عشإ الشاش ة، وقدك\nبإدخددال الماشومددام الميشوبددة .\n راجددع دلةددل\nالمستخدم لإلطالع عشإ التفاصةل\n\n فدي نها دة الامشةدة، ةنقدر فدوق انشداء\nيسةج يل\nالدلول\nسةُيشب منك تفاةل الحساب\nقدم بتسدجةل الددخول الدإ بوابدة األمدم المتحدد الاالمةدة لشمشدتر ام بإسدم المسدتخدم ال خداب بدك\n(عنددوان البر ددد اإللكترونددي )و شمددة المددرور الخاصددة بددك .هددذه هددي نفسددها تفاصددةل الدددخول\nالمستخدمة في نظام الشراء اإللكتروني لمكتب األمم المتحد لخدمام المشار ع\nة مدل مدلء ماشومدام التسدجةل الخاصدة بدك ل قسدام :\n عدام، الاندوان، البشددان /المنيقدة، جهدام\n االتصال، اإلقرار، الترمةز، منظمام األمم المتحد\n2\n .التسجيل في بوابة األمم المتحدة العالمية للمشتريات\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nWelcome to the UNGM\n\nBusiness Bt Tender Alert Service\n\nAbout UNGM",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "يوصيات رئيسية للمورةين الاين يستخدمون نظام الشراء اإللكتروني لمكتب األمم المتح دة لخدمات\nالمشاريع\nUNOPS eSourcing training for Vendors v1.3\n32\n5\n .يوصيات رئيسية للمورةين\n7\n1\n2\n3\n5\n4\n6\n قم بالتسجةل في\nبوابة األمم المتحد الاالمةة لشمشتر ام مورد لمكتب األمم المتحدد\n لخدمام المشار ع\nفي سوق األمم المتحد الاالمةة .\n،ااا نت مسجال مدن قبدل ُرجدإ\nالتحق من ةن ماشوماتك مكتمشة\nقم بالتابةر عن االهتمام في المناقصة\nقم باستاراض تفاصةل المناقصة، وخاصة الموعد النهائي لشتقد م\nقم بإبالغ مكتب األمم المتحد لخدمام المشار ع بشدن ما ااا نت تنو ي تقد م\nعياء ةم ال\nةطشب توفةحام عن المناقصة ااا انت لد ك ةسئشة\n احفظ عياء عشإ شكل مسود وال تنتظر حتإ الشحظة األخةر\nقم عشإ الفور بالرد عشإ توفةحام تقةةم مكتب األمم المتحد لخد مام\nالمشار ع\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "UNOPS eSourcing training for Vendors v1.3\n3\n1\n2\n5\n6\n3\n4\n7\nالمحتويات\nمقدمة حدول نظدام الشدراء اإللكتروندي لبوابدة األمدم المتحدد الاالمةدة لشمشدتر ام ومكتد ب األمدم\nالمتحد لخدمام المشار ع\nتسجةل المورد ن في بوابة األمم المتحد الاالمةة لشمشتر ام\nالبحث عن اشاارام المناقصام /\n التابةر عن االهتمام /\n الوصول الإ نظام الشراء\n اإللكتروني\nالوظائف الرئةسةة لنظام الشراء اإللكتروني لمكتب األمم المتحد لخدمام ا\nلمشار ع\n توصةام رئةسةة لشمورد ن\nاالتصال والموارد\nجشسة االسئشة واالجوبة\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nجع يع © زه\n‎esourcingunops+1 @gmail.com 2017 10 24 09:54 UTC‏\n\nYour submission for UNOPS Tender RFP/2017/17875\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n4 | TENDERINFORMATION | VENDORCONFIRMATION | VENDORSUBMISSION | EVALUATION CLARIFICATIONS\n\nGENERALINFORMATION TENDER PARTICULARS —EVALUATIONCCRITERIA. DOCUMENTS 86/15100/5 | REQUEST A CLARIFICATION\n\n© Please note that any request for clarification that you submit here will only be visible to you and not any other vendor. Responses from UNOPS to this request for\nclarification will be posted by UNOPS in the Revisions tab  without identifying the vendor that requested it \n\nNo data was found.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-02",
+            "question": "ما الفرق بين المناقصة المفتوحة والمناقصة المحدودة؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "❌ فشل",
+                "final_score": 0.0,
+                "source_check": "❌",
+                "keyword_evaluation": {
+                    "score": "0/5",
+                    "found": [],
+                    "missing": [
+                        "الجميع",
+                        "القائمة المختصرة",
+                        "المنافسة المحدودة",
+                        "المنافسة المفتوحة",
+                        "عدد محدود من الموردين"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "7\n .التحقق من حالة المناقصة\nUNOPS eSourcing training for Vendors v1.3\n30\n\n ةنقر تحت عرض عطاءات المناقصات المقدمة من قبلي(ااا نت قد قمت بتسجةل الدخو ل سدشفا\n الإ نظام الشراء اإللكتروني، انتقل الإ\nمناقصايي)\nهنا ثالث حاالم محتمشة لشمناقصة:\n \n الفتح(\n الشون\nاأللضر :)لم نقضي الموعد النهائي باد.\n \n التقةددةم(\n الشددون\nالبريقةةالي :)انقضددإ الموعددد النهددائي و قددوم مكتددب األمددم المتحددد لخدد دمام\nالمشار ع بإجراء تقةةم لشاياءام المقدمة من المورد ن.\n \n انتهت(\n بالشون\nاألزرق :)عندما كدون مكتدب األمدم المتحدد لخددمام المشدار ع قدد انتهدإ مدن\n التقةةم وحددد النتدائ .ةنقدر عشدإ زر بوابدة األمدم المتحدد الاالمةدة لشمشدتر ام لإل طدالع عشدإ\nصفحة منح الاقود.\n \n ةلغةدت(\n الشدون\nالرمةاةي :)عنددما كدون قدد تدم الغداء المناقصدة مدن قبدل مكتدب األمدم المتحد د\nلخدمام المشار ع.\n\n سدوف تتشقدإ إلطةار يلقةائي بالبريةد اإللكترونةي\nبمجدرد انتهداء مكتدب األمدم المتحدد ل خددمام\nالمشدار ع مدن تقةدةم الايداء، مدع ماشومدام حدول النتةجدة .سدتاشمك هدذه الرسدالة اإللكترو نةدة\nبالنتةجدة :\n مدا ااا تدم ادراجدك فدي القائمدة المختصدر ةم ال(\n فدي مناقصدام\nالتابةدر عدن اال هتمدام\n والتدهةل المسب )\n ةو ما ااا نت قد حصشت عشدإ عقدد ةم ال(\n فدي\nالتمدا تقدد م الادروض :\n طشدب\nعرض سار، دعو لتقد م عياءام، طشب تقدد م عدرض .)ة ضدا ، سدوف تتضدمن رسدائل ا لبر دد\nاإللكتروندي هدذه تفاصدةل االتصدال الخاصدة بمدوظفي مكتدب األمدم المتحدد لخددمام المشد ار ع\nالمسؤولةن عن المناقصة ااا رغبت في الحصول عشإ مز د من الماشومام.\nد ة\nالة\nف\nنحاا\nعق ة ي\nت ف ة ضا ا يا ا\nة فإن ا\nنت ة ل ذ ال ناق\nف ة\nل\n4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "يوصيات رئيسية للمورةين الاين يستخدمون نظام الشراء اإللكتروني لمكتب األمم المتح دة لخدمات\nالمشاريع\nUNOPS eSourcing training for Vendors v1.3\n32\n5\n .يوصيات رئيسية للمورةين\n7\n1\n2\n3\n5\n4\n6\n قم بالتسجةل في\nبوابة األمم المتحد الاالمةة لشمشتر ام مورد لمكتب األمم المتحدد\n لخدمام المشار ع\nفي سوق األمم المتحد الاالمةة .\n،ااا نت مسجال مدن قبدل ُرجدإ\nالتحق من ةن ماشوماتك مكتمشة\nقم بالتابةر عن االهتمام في المناقصة\nقم باستاراض تفاصةل المناقصة، وخاصة الموعد النهائي لشتقد م\nقم بإبالغ مكتب األمم المتحد لخدمام المشار ع بشدن ما ااا نت تنو ي تقد م\nعياء ةم ال\nةطشب توفةحام عن المناقصة ااا انت لد ك ةسئشة\n احفظ عياء عشإ شكل مسود وال تنتظر حتإ الشحظة األخةر\nقم عشإ الفور بالرد عشإ توفةحام تقةةم مكتب األمم المتحد لخد مام\nالمشار ع\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "3\n .يقديم رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n26\n\n لشرد عشإ المناقصة ، ة مل المتيشبام التالةة(\n تم تكةةفها لمناقصة محدد)\nاالستبيانات : قوم المدورد ن بإ مدال األسدئشة عشدإ اإلنترندت والتدي يشبهدا مكتدب األ مدم المتحدد\nلخدمام المشار ع\nالقائمةة المرجعيةة للوثةائق : قدوم المدورد ن بتحمةدل الوثدائ التدي يشبهدا مكتدب األ مدم المتحدد\nلخدمام المشار ع\nيفاصةيل العةرض المةالي : قدوم المدورد ن بإدخدال ماشومدام األسداار التدي يشبهدا مكتدب ا ألمدم\n المتحد لخدمام المشار ع(اجمالي الارض المالي، الامشة)\nبمجرد تحمةل ل الماشومام الميشوبة، سةتغةر لون الارض بجانب ل عالمة تبو ب من الشون\n األحمر ) (\n الإ الشون األخضر .) (\n في تشك المرحشة، ةنقر فوق عالمة التبو ب\nإ\nرسال ،\n ثم ةنقر فوق الزر\nإرسةال\nإلرسدال رد الدإ مكتدب األمدم المتحدد لخددمام المشدار ع .ال\n مك ندك\nاإلرسدال حتدإ ا تمدال دل الماشومدام اإللزامةدة وفقدط ااا دان الدك قبدل الموعدد النهدائي لت قدد م\nالاياء\n\n بمجرد اإلرسال، تتغةر الحالة من\nمسوةة الإ يم التقديم\nوستتشقإ اشاارا عبر الب\nر د اإللكتروني\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17875\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nDraft\n\nYour submission is still in Draft status and you may continue to add or edit informati\n\n‎can only submit a vendor submission if before the deadline.‏ نا",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nجع يع © زه\n‎esourcingunops+1 @gmail.com 2017 10 24 09:54 UTC‏\n\nYour submission for UNOPS Tender RFP/2017/17875\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n4 | TENDERINFORMATION | VENDORCONFIRMATION | VENDORSUBMISSION | EVALUATION CLARIFICATIONS\n\nGENERALINFORMATION TENDER PARTICULARS —EVALUATIONCCRITERIA. DOCUMENTS 86/15100/5 | REQUEST A CLARIFICATION\n\n© Please note that any request for clarification that you submit here will only be visible to you and not any other vendor. Responses from UNOPS to this request for\nclarification will be posted by UNOPS in the Revisions tab  without identifying the vendor that requested it \n\nNo data was found.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-03",
+            "question": "إذا كان عرضي بقيمة 60 ألف دولار، ما هي طريقة التماس العروض التي ستستخدمونها؟",
+            "timing": {
+                "retrieval_seconds": 0.07,
+                "rerank_seconds": 0,
+                "total_seconds": 0.07
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.68,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/5",
+                    "found": [
+                        "خدمات"
+                    ],
+                    "missing": [
+                        ">50,000",
+                        "دعوة لتقديم عطاءات",
+                        "سلع و أعمال",
+                        "طلب تقديم عرض"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "22\nالتماس قديم العروض\nنوع المتافعة\nطريقة التماس\n قديم العروض\n وثائق التماس\n قديم العروض\n مدة التماس\n قديم العروض\nالتماس قديم العروض\nالتمنننناس تقننننديح العننننروض هننننو\nالمصطلح العناا لندعوة المنوردين\n لتقنديح عطناء و عنرض سنعر و\nتقديح عرض .\n هناك\nأربعة\nجوانم\nرئيسنية إلنناء إعنداد عملينة طلن م\nتقديح العروض.\n تشركر\nهن،ه الجواننم فني الغالن م\n منن المعلومنات التني ينتح جمعانا\n ل نشطة\nما كبر الشراء:\n•تخطيط المشتريات\n•تحديد االحتياجات\n•ا تيار الموردين\nالتماس قديم العروض\n2\n \n3",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "24\nوثائق التماس قديم العروض\n تعقيد الوإلائق\nيعتمد على االحتياجات والقيمة ، وتشمل\nالمكونات الرئ يعية\nالم،كورة\n دناه.\nالتماس قديم العروض\nالمعلومات التعاكدية\n•نسخة\nمن\nالشروط\nواألحكام\nالعامة\nذات\nالصلة\nبالمنظمة\n•الشروط\nالخاصة(\n إ\nوجدت)\n•نسخة\nمن\nالعقد\nالتموذجق\nال،ي\nسيتح\nاستخدامه\nمعايير التقييم\n•األهلية والمعايير الرسمية\n•معايير التأهيل\n•المعايير الفنية\n طاب الدعوة، فاصير قديم العطاء /طلب\nالعروض\n طاب الدعوة\n•الشخص ال،ي يملن االتصال به\n•المواعيد الناائية\n•التوضيحات\n•األهلية\n•قبل تقديح العطاء، زيارة الموقع\n•\n ،اللغة...\n نماذج عروض األسعار /الوداول القابلة ل سترجاع\n•النماذج\nالتي\nيجم\nملؤها\nوتوقيعاا\nحسم\nاألحول\nوإدراجاا\nفي\nعرض\nسعر\nمقدم\nالع\nطاء\n• مثلة:نموذج\nتقديح،العطاء\nنموذج\n قديم\nالعرض،الفني\nجدول\nاالسعار\n؛\n طاب\nاعت\nماد\nالجاة\nالمصن ِّعة؛\nالعير\nالذا ية\nللمو فين\nالرئيسيين\n•الوداول(األعمال):\n البرنام\nاألولي\nلمقدا\nالعطاء؛\nفريق\nالمشروع؛،التأمينات\nالقد\nرات،\nاألعمال\nقيد،،التنفي\nاألعمال\nالتي\nتح\nإنجازها..\nجدول المتطلبات\n•\n المواحفات الفنية(السلع)\n•\n الشروط المرجعية(الخدمات)\n•بيا األعمال والتصميح والرسومات\n عليمات لمقدمق العطاءات\n•النطام\n•الترجمة\n•التعدي ت\n• روط الدفع\n•\n،إدارة العقود…\n.\n2\n \n3",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "4\n .يقديم عرض بديل للمناقصة\nUNOPS eSourcing training for Vendors v1.3\n27\n\n مكنك تقد م عرض بد ل(عروض بد شة )\n ااا تم تحد دها في عالمدة التبو دب\nيفاصة يل المناقصةة\n تحت\nمعلومات المناقصة\n\n جدب تقدد م الادرض البدد ل(الادروض البد شدة )قبدل الموعدد النهدائي لشتقدد م المحددد فد ي عالمدة\n التبو ب معلومات عامة تحت\nمعلومات المناقصة\n\n باد قةامك بإرسال الرد عشإ المناقصة، وتكون حالتك يم التقةديم(الشدون األخضدر)، ف إند مكندك\n تقد م عرض بد ل(عروض بد شة )ااا تم السماح بذلك\n\n انتقل الدإ عالمدة تبو دب الصدفحة الرئةسدةة ) (الخاصدة بتقدد م الايداء وانقدر فد وق يقةديم\nعرض بديل\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 4    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n| TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n\nPlease note that you must click the ‘Submit button under the Submit tab before the tender deadline in order for your submission to be received by UNOPS. Once done  your\n‘tender submission will display as ‘Submitted’ (green colour) in the status bar. If you have not submitted your vendor response the status bar will state ‘Draft (blue coloui).\n\n‘Submit an alternative offer\n    OCR Text from Image 5    \nRFP/2017/17875",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "1\n .\n إبالغ مكتب األمم المتحدة لخدمات المشاريع عن نيتك لتقديم رة(أو ال)\nUNOPS eSourcing training for Vendors v1.3\n24\n\n ود مكتب األمم المتحد لخدمام المشار ع ةن ارف ما ااا نت تنوي تقد م ةو عدم تقد م رد عشدإ\nالمناقصة ألن هذه الماشومام مفةد جدا لامشةة الشراء التي نتباها\n\n ةنقر فوق عالمة التبو ب\nيأكيد المورة\n \n ةنقر فوق الزر\nنعم(ةخضر )\n ةو الزر\nال(ةحمر)\n ااا قمت بتحد د ال، فسةُيشب منك توفةح السبب\n\n مكنك فقط النقر فدوق نادم ةو ال مدر واحدد .\n ااا قمدت بدالنقر فدوق\nال ،فسدةظل بإمكاندك ار سدال رد\nالمورد\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nesourcingunopst1@gmailcom 2017 10 24 08:50 UTC\nYour submission for UNOPS Tender\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nVendor confirmation\n\nYES  we intend to submita response | NO  we do not intend to submit a response",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "يوصيات رئيسية للمورةين الاين يستخدمون نظام الشراء اإللكتروني لمكتب األمم المتح دة لخدمات\nالمشاريع\nUNOPS eSourcing training for Vendors v1.3\n32\n5\n .يوصيات رئيسية للمورةين\n7\n1\n2\n3\n5\n4\n6\n قم بالتسجةل في\nبوابة األمم المتحد الاالمةة لشمشتر ام مورد لمكتب األمم المتحدد\n لخدمام المشار ع\nفي سوق األمم المتحد الاالمةة .\n،ااا نت مسجال مدن قبدل ُرجدإ\nالتحق من ةن ماشوماتك مكتمشة\nقم بالتابةر عن االهتمام في المناقصة\nقم باستاراض تفاصةل المناقصة، وخاصة الموعد النهائي لشتقد م\nقم بإبالغ مكتب األمم المتحد لخدمام المشار ع بشدن ما ااا نت تنو ي تقد م\nعياء ةم ال\nةطشب توفةحام عن المناقصة ااا انت لد ك ةسئشة\n احفظ عياء عشإ شكل مسود وال تنتظر حتإ الشحظة األخةر\nقم عشإ الفور بالرد عشإ توفةحام تقةةم مكتب األمم المتحد لخد مام\nالمشار ع\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-04",
+            "question": "ماذا يعني مصطلح 'أعلى جودة بأفضل سعر'؟ هل هو أقل سعر فقط؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.6,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "0/5",
+                    "found": [],
+                    "missing": [
+                        "أعلى جودة بأفضل سعر",
+                        "تكلفة التشغيلية",
+                        "تكلفة الصيانة",
+                        "كلفة مدة الاستخدام",
+                        "ليس سعر الشراء فقط"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "24\nوثائق التماس قديم العروض\n تعقيد الوإلائق\nيعتمد على االحتياجات والقيمة ، وتشمل\nالمكونات الرئ يعية\nالم،كورة\n دناه.\nالتماس قديم العروض\nالمعلومات التعاكدية\n•نسخة\nمن\nالشروط\nواألحكام\nالعامة\nذات\nالصلة\nبالمنظمة\n•الشروط\nالخاصة(\n إ\nوجدت)\n•نسخة\nمن\nالعقد\nالتموذجق\nال،ي\nسيتح\nاستخدامه\nمعايير التقييم\n•األهلية والمعايير الرسمية\n•معايير التأهيل\n•المعايير الفنية\n طاب الدعوة، فاصير قديم العطاء /طلب\nالعروض\n طاب الدعوة\n•الشخص ال،ي يملن االتصال به\n•المواعيد الناائية\n•التوضيحات\n•األهلية\n•قبل تقديح العطاء، زيارة الموقع\n•\n ،اللغة...\n نماذج عروض األسعار /الوداول القابلة ل سترجاع\n•النماذج\nالتي\nيجم\nملؤها\nوتوقيعاا\nحسم\nاألحول\nوإدراجاا\nفي\nعرض\nسعر\nمقدم\nالع\nطاء\n• مثلة:نموذج\nتقديح،العطاء\nنموذج\n قديم\nالعرض،الفني\nجدول\nاالسعار\n؛\n طاب\nاعت\nماد\nالجاة\nالمصن ِّعة؛\nالعير\nالذا ية\nللمو فين\nالرئيسيين\n•الوداول(األعمال):\n البرنام\nاألولي\nلمقدا\nالعطاء؛\nفريق\nالمشروع؛،التأمينات\nالقد\nرات،\nاألعمال\nقيد،،التنفي\nاألعمال\nالتي\nتح\nإنجازها..\nجدول المتطلبات\n•\n المواحفات الفنية(السلع)\n•\n الشروط المرجعية(الخدمات)\n•بيا األعمال والتصميح والرسومات\n عليمات لمقدمق العطاءات\n•النطام\n•الترجمة\n•التعدي ت\n• روط الدفع\n•\n،إدارة العقود…\n.\n2\n \n3",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "31\nالفرز األولق\nالتقييم2\n \n4\nكيل:\n•\n التحقق مما إذا كا تح التقيد\nبالمعرايير ال رسرمية\n بشننأ :\n ،الموعنند الناننائي، عنندد نسننخ العطنناء\n ضننننما العطنننناء(إ وجنننند)\n ، منننندة حنننن حية\n العرض، الوإلائق المطلوبة...\n•\n التحقق من\nاألنلية\nفي قائمة الجزاءات\nلمرراذا :\n إلغنناء العننروض يننر المرضننية بشننلل\n واضح =كفاءة التقييم\nمن :معؤول المشتريات\nمهرررم :ال يرررتم الررررفت ألسرررباب افهرررة !\n طلنننم\nتوضنيحات فني حنال وإلنائق تاريخينة هني ف قنط\n ير موجودة .يوب وثيق حاالت الرفت\nالفرز األولق\n•المعايير الرسمية\n•األهلية\n\n    OCR Text from Image 2    \nطلب تقددم العروض: التحليل التراكمي\n\n1 1\nالنحقق من المعلومات\nالأساسية\n\nتترير معقولية التكلفة",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "22\nالتماس قديم العروض\nنوع المتافعة\nطريقة التماس\n قديم العروض\n وثائق التماس\n قديم العروض\n مدة التماس\n قديم العروض\nالتماس قديم العروض\nالتمنننناس تقننننديح العننننروض هننننو\nالمصطلح العناا لندعوة المنوردين\n لتقنديح عطناء و عنرض سنعر و\nتقديح عرض .\n هناك\nأربعة\nجوانم\nرئيسنية إلنناء إعنداد عملينة طلن م\nتقديح العروض.\n تشركر\nهن،ه الجواننم فني الغالن م\n منن المعلومنات التني ينتح جمعانا\n ل نشطة\nما كبر الشراء:\n•تخطيط المشتريات\n•تحديد االحتياجات\n•ا تيار الموردين\nالتماس قديم العروض\n2\n \n3",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "UNOPS eSourcing training for Vendors v1.3\n11\nالتسجيل أمر بالغ األهمية :الن من ةجدل الوصدول الدإ التفاصدةل الكامشدة لمناقصدة مكتد ب األمدم\nالمتحد لخدمام المشار ع واالسدتجابة ألي مناقصدة فدي نظدام الشدراء اإللكتروندي لمكتد ب األمدم\n المتحد لخدمام المشار ع، بمجرد قةامك بالتسجةل، تكدون\nيفاصةيل يسةجيل الةدلول هةي نفسةاا\nبالنسبة لبوابة األمم المتحد الاالمةة لشمشتر ام ومكتب األمم المتحد لخدمام المش\nار ع.\n\n التسجةل في المسةتوى األساسةي داف، ألن مكتدب األمدم المتحدد لخددمام المشدار ع ال شدترط\nالتسجةل في المستوى األول والمستوى ال اني.\n\n ستغرق التسجةل أقل من10\n ةقائق إلتمام.\n\n ُرجإ مالحظة ةن التسجةل\nمجاني\nفي بوابة األمم المتحد الاالمةة لشمشتر ام.\nالتسجيل في بوابة األمم المتحدة العالمية للمشتريات\n2\n .التسجيل في بوابة األمم المتحدة العالمية للمشتريات\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "34\n برير معقولية التكلفة\n قييم العروض المقدمة\n برير معقولية الت\nكلفة\nكيل :\n مقارنة العرض الموصى به\nمقابل:\n•\n ًعروض رى مطابقة تماما\n•\n طة /\n ميزانية /\n تقديرات المشتريات\n• سعار السوم\n•\n مشتريات سابقة من منتجات / دمات مماإللة\n• سعار االتفاقيات طويلة األجل الحالية\nلماذا :تحديد ما إذا كا العنرض الموحنى بنه يعنرض\n أعلى جودة بأفضر سعر\nمن :معؤول المشتريات\nمهم:\n•\n م ئمة بشلل اع\nفق حال م است م أكر من ث ثة\nعروض مطابقة\n2\n \n4\n\n    OCR Text from Image 2    \nطلب تقددم العروض: التحليل التراكمي\n\n1 1\nالنحقق من المعلومات\nالأساسية\n\nتترير معقولية التكلفة",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        }
+    ]
+}

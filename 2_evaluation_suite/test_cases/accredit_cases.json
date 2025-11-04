@@ -1,0 +1,52 @@
+[
+    {
+        "case_id": "ACC-01",
+        "question": "ما هي المراحل الرئيسية لطلبات الاعتماد؟",
+        "expected_keywords": [
+            "تسجيل الدخول",
+            "إدارة الطلبات",
+            "الدراسة المكتبية",
+            "الزيارة الميدانية",
+            "اإلجراءات التصحيحية",
+            "اتخاذ القرار"
+        ],
+        "expected_source": "accreditationsystemguideforassessors.pdf"
+    },
+    {
+        "case_id": "ACC-02",
+        "question": "كيف يمكنني مشاهدة الطلبات التي تم ترشيحي لها كقائد فريق؟",
+        "expected_keywords": [
+            "تسجيلك للدخول",
+            "الصفحة الرئيسية",
+            "إدارة الطلبات",
+            "قائد",
+            "عضو",
+            "قبولها",
+            "رفضها"
+        ],
+        "expected_source": "accreditationsystemguideforassessors.pdf"
+    },
+    {
+        "case_id": "ACC-03",
+        "question": "ماذا يفعل قائد الفريق بعد انتهاء مرحلة الدراسة المكتبية؟",
+        "expected_keywords": [
+            "اكتمال تقييم",
+            "قائد الفريق",
+            "إعادة الطلب",
+            "مسؤول االعتماد",
+            "مراجعته"
+        ],
+        "expected_source": "accreditationsystemguideforassessors.pdf"
+    },
+    {
+        "case_id": "ACC-04",
+        "question": "هل يمكن للجهة مراجعة تقرير الزيارة الميدانية؟ وماذا تفعل بعد ذلك؟",
+        "expected_keywords": [
+            "تقوم الجهة",
+            "مراجعة تقرير الزيارة",
+            "تحليل األسباب الجذرية",
+            "اإلجراءات التصحيحية"
+        ],
+        "expected_source": "accreditationsystemguideforassessors.pdf"
+    }
+]

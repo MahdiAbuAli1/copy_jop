@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>مساعد الدعم الفني الذكي</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
+    .scrollbar::-webkit-scrollbar-track { background: transparent; }
+    .scrollbar::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 6px; }
+    .typing { width: 6px; height: 6px; background: #64748b; border-radius: 50%; animation: blink 1s infinite alternate; }
+    @keyframes blink { from{opacity:.3} to{opacity:1} }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 text-[16px] sm:text-[17px]">
+  <div class="max-w-6xl mx-auto p-4 sm:p-6">
+    <header class="bg-white/80 backdrop-blur rounded-2xl border border-slate-200 p-4 sm:p-5 shadow-sm">
+      <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div class="flex items-center gap-3">
+          <div class="h-10 w-10 rounded-xl bg-sky-600 text-white grid place-items-center font-bold">س</div>
+          <div>
+            <h1 class="text-2xl sm:text-3xl font-bold text-slate-800">مساعد الدعم الفني الذكي</h1>
+            <p class="text-xs text-slate-500">تجربة دردشة عربية واضحة وحديثة تعتمد على معرفة كل مستأجر</p>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 w-full sm:w-auto">
+          <input id="apiKey" type="password" placeholder="مفتاح API"
+                class="w-full sm:w-56 px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400 bg-white" />
+          <select id="tenant" class="w-full sm:w-56 px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400 bg-white">
+            <option value="" disabled selected>اختر نوع النظام (المستأجر)</option>
+          </select>
+          <select id="kSelect" class="w-full sm:w-44 px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400 bg-white">
+            <option value="2">2 نتائج</option>
+            <option value="4" selected>4 نتائج</option>
+            <option value="6">6 نتائج</option>
+            <option value="8">8 نتائج</option>
+            <option value="10">10 نتائج</option>
+            <option value="12">12 نتائج</option>
+            <option value="16">16 نتائج</option>
+          </select>
+          <div class="flex gap-2">
+            <button id="refreshTenants" class="px-4 py-2 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-900">تحديث</button>
+            <button id="clearChat" class="px-4 py-2 rounded-lg bg-white border border-slate-300 hover:bg-slate-50 text-slate-700">مسح</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="mt-6 grid grid-cols-1 gap-4">
+      <section id="chat" class="bg-white rounded-2xl shadow border border-slate-200 h-[70vh] overflow-y-auto p-4 sm:p-6 scrollbar">
+        <div id="messages" class="space-y-4"></div>
+      </section>
+
+      <section class="flex items-start gap-3">
+        <textarea id="question" rows="2" placeholder="اكتب سؤالك هنا بوضوح... (Enter للإرسال، Shift+Enter لسطر جديد)"
+                  class="flex-1 px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-400 bg-white text-[15px] leading-7"></textarea>
+        <button id="send" class="px-5 py-3 rounded-2xl bg-sky-600 hover:bg-sky-700 text-white font-semibold">إرسال</button>
+      </section>
+    </main>
+
+    <footer class="mt-4 text-center text-xs text-slate-500">واجهة حديثة مع بث لحظي من FastAPI</footer>
+  </div>
+
+  <script>
+    const tenantsSel = document.getElementById('tenant');
+    const refreshBtn = document.getElementById('refreshTenants');
+    const apiKeyInput = document.getElementById('apiKey');
+    const questionInput = document.getElementById('question');
+    const sendBtn = document.getElementById('send');
+    const messages = document.getElementById('messages');
+    const kSelect = document.getElementById('kSelect');
+    const clearBtn = document.getElementById('clearChat');
+
+    async function loadTenants() {
+      tenantsSel.innerHTML = '<option value="" disabled selected>جاري التحميل...</option>';
+      try {
+        const res = await fetch('/tenants');
+        const data = await res.json();
+        const tenants = (data && data.tenants) || [];
+        if (!Array.isArray(tenants) || tenants.length === 0) {
+          tenantsSel.innerHTML = '<option value="" disabled selected>لا يوجد مستأجرون</option>';
+          return;
+        }
+        tenantsSel.innerHTML = '<option value="" disabled selected>اختر نوع النظام (المستأجر)</option>' +
+          tenants.map(t => `<option value="${t}">${t}</option>`).join('');
+
+        // استعادة الاختيار من التخزين إن وجد
+        const savedTenant = localStorage.getItem('tenant_id');
+        if (savedTenant && tenants.includes(savedTenant)) tenantsSel.value = savedTenant;
+      } catch (e) {
+        tenantsSel.innerHTML = '<option value="" disabled selected>فشل التحميل</option>';
+      }
+    }
+
+    function addMessage(role, content) {
+      const wrap = document.createElement('div');
+      wrap.className = 'flex ' + (role === 'user' ? 'justify-end' : 'justify-start');
+      const bubble = document.createElement('div');
+      bubble.className = (role === 'user'
+        ? 'bg-sky-600 text-white'
+        : 'bg-slate-100 text-slate-900') + ' max-w-[85%] px-5 py-4 rounded-2xl shadow whitespace-pre-wrap break-words text-[15px] leading-7';
+      bubble.textContent = content;
+      wrap.appendChild(bubble);
+      messages.appendChild(wrap);
+      messages.parentElement.scrollTop = messages.parentElement.scrollHeight;
+      return bubble;
+    }
+
+    function addAssistantPlaceholder() {
+      const wrap = document.createElement('div');
+      wrap.className = 'flex justify-start';
+      const bubble = document.createElement('div');
+      bubble.className = 'bg-slate-100 text-slate-900 max-w-[85%] px-5 py-4 rounded-2xl shadow whitespace-pre-wrap break-words text-[15px] leading-7';
+      const typing = document.createElement('div');
+      typing.className = 'flex items-center gap-1';
+      typing.innerHTML = '<span class="typing"></span><span class="typing"></span><span class="typing"></span>';
+      bubble.appendChild(typing);
+      wrap.appendChild(bubble);
+      messages.appendChild(wrap);
+      messages.parentElement.scrollTop = messages.parentElement.scrollHeight;
+      return bubble;
+    }
+    async function sendQuestion() {
+      const apiKey = apiKeyInput.value.trim();
+      const tenant = tenantsSel.value;
+      const question = questionInput.value.trim();
+      const k = parseInt(kSelect.value || '4', 10);
+      if (!apiKey) { alert('يرجى إدخال مفتاح API'); return; }
+      if (!tenant) { alert('يرجى اختيار المستأجر'); return; }
+      if (!question) { return; }
+
+      // حفظ الإعدادات
+      localStorage.setItem('api_key_masked', apiKey ? 'set' : '');
+      localStorage.setItem('tenant_id', tenant);
+      localStorage.setItem('k_results', String(k));
+
+      addMessage('user', question);
+      const assistantBubble = addAssistantPlaceholder();
+      assistantBubble.textContent = '';
+
+      sendBtn.disabled = true;
+      sendBtn.classList.add('opacity-70');
+
+      try {
+        const res = await fetch('/ask-stream', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'x-api-key': apiKey
+          },
+          body: JSON.stringify({ question, tenant_id: tenant, k_results: k })
+        });
+
+        if (!res.ok || !res.body) {
+          assistantBubble.textContent = 'فشل الطلب. تحقق من الخادم أو مفتاح API.';
+          return;
+        }
+
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder('utf-8');
+        let done = false;
+        while (!done) {
+          const { value, done: doneReading } = await reader.read();
+          done = doneReading;
+          if (value) assistantBubble.textContent += decoder.decode(value, { stream: true });
+          messages.parentElement.scrollTop = messages.parentElement.scrollHeight;
+        }
+      } catch (e) {
+        assistantBubble.textContent = 'حدث خطأ أثناء الاتصال بالخادم.';
+      } finally {
+        sendBtn.disabled = false;
+        sendBtn.classList.remove('opacity-70');
+        questionInput.value = '';
+        questionInput.focus();
+      }
+    }
+
+        sendBtn.addEventListener('click', sendQuestion);
+        questionInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendQuestion();
+            }
+        });
+        refreshBtn.addEventListener('click', loadTenants);
+        clearBtn.addEventListener('click', () => { messages.innerHTML = ''; });
+
+        // استعادة إعدادات المستخدم
+        (function restorePrefs() {
+            const savedK = localStorage.getItem('k_results');
+            if (savedK) kSelect.value = savedK;
+            // لا نحفظ مفتاح الـ API فعلياً لأمان أفضل، فقط علامة أنه موجود
+        })();
+
+        loadTenants();
+    </script>
+</body>
+
+</html>

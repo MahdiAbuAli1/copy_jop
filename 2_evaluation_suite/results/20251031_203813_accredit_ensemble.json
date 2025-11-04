@@ -1,0 +1,224 @@
+{
+    "report_info": {
+        "tenant_id": "accredit",
+        "retriever_type": "ensemble",
+        "timestamp": "2025-10-31T20:38:13.180958",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 4
+    },
+    "evaluation_results": [
+        {
+            "case_id": "ACC-01",
+            "question": "ما هي المراحل الرئيسية لطلبات الاعتماد؟",
+            "timing": {
+                "retrieval_seconds": 0.07,
+                "rerank_seconds": 0,
+                "total_seconds": 0.07
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 1.0,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "6/6",
+                    "found": [
+                        "إدارة الطلبات",
+                        "اإلجراءات التصحيحية",
+                        "اتخاذ القرار",
+                        "الدراسة المكتبية",
+                        "الزيارة الميدانية",
+                        "تسجيل الدخول"
+                    ],
+                    "missing": []
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "دلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\nتسجيل الدخول\nإدارة الطلبات\nالدراسة المكتبية\nالزيارة الميدانية\nاإلجراءات التصحيحية\nاتخاذ القرار\n03\n04\n05\n06\n08\n13\nالمراحل الرئيسية\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nال وي موك ريوع 7سلُاورو ‎Oe‏ سو\n2 لجع عراب جع احص ‎Re | ca‏\n‎[el].‏ © 1 مدص صصص ]| دواد | مع |   |[ |\n‎ESE g‏ :\nالمساخدمة في جو ‎APPRIACANTI 7 ue 6١‏ عه تصيم | تمر  2000/55 ‎dane pt     sooo‏ تقييم انج\nي |\n‎APPLIACANTIY 7 um 2:‏ دع ‎oon 200/56 ACEUa RANG?‏ ممم غير محفلا اقيم ا\nست | ‎CEES‏\n‎a 0 5 Ee‏\n‎gum‏ بنامد المقرية ‎RANGS CCA APPLIACANTI. 9 erry [ol‏ قتعم م0 19072 2 عير مدل 92\n‎a | ee ee eee || SO‏\n‎RANG? C6. APPUACANTIS. 1 er 00 [|‏ نعم ينك  0015 ‎AGREENT‏ غير ‎dae‏ تقييم مد\n© سام «مصتصي حت مصتير مصير ا لتم ‎a‏\n‎RANG? OCR APPLIACANTI  2 LABS 2‏ قوعم ممم 007 ‎AGREEIS‏ عير مجقل. ‎putt‏\n‎«eee ©‏ #ومممتحي ست تمصي «سصرا فس فير ‎a‏\n‎acount RANGIT CC1D APPLIACANTIP 1s wsn @‏ عه نموم وروم م غير محخل. ‎aod‏\n‎[Came | ee ees ees   sess coe srmatony ee |‏\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center ‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \n©\n\nتلب قي ‎shale‏\n\n)© المجان\n\nنمودج قائمة بالأجهرة\n© وتمواح وتلصعارير المرجهية\n\nللمستخدمة مي دمة\n\nلقريم المطابقة 52 52\n\nلمودج قائمة بالعاملين.\n‎C)‏ مي جوة تقريم المطابقة\n‎F S1‏\n\nلموذح برنامج المقارلة\nالبيئية بين تلمخثبرات\nواختبارات الخفاعة ‎F+36‏\n\n0 التحفق\n\n©\n\n‎state}‏ مدال\n\n‎AB?\n\n‎LAg3\n\n‎Letts)\n\n‎ase\n\n‎LADO\n\n‏لها\n\n‎O\n\n‏همهم لتتحفق. ‎dase‏ قمتف\n\n‏الاجم\n\n‎Cen)\n‎. ‏لمعايرة‎ 6515) OTE VET / ‏(مقدم خدمة المسايرة‎ 2\n‏دن ص 27 قم حت‎\n\n‎APPLIACANTIO\n\n‎APPLIACANTI1\n\n‎APPLUACANTI2\n\n‎APPUACANTIZ\n\n‎APPLIACANTIG\n\n‎APPLUACANTIS\n\n‎APPLUACANTI6\n\n‎APPLIACANTIZ\n\n‎APPLIACANTIG\n\n‎APPLIACANTID\n\n‎cet\n\n‏م\n\n‎ccs\n\n‎ce\n\n‎ccs.\n\n‏مع\n\n‎2667\n\n‎cce\n\n‎cc10\n\n‎RANG?\n\n‎RANG?\n\n‎RANGE\n\n‎RANGS\n\n‎RANGS\n\n‎RANG?\n\n‎RANGD\n\n‎RANG?\n\n‎RANGID\n\n‎RANGIY\n\n‎O\n\n‎Butte ‏درسة‎\n\n‎accu2\n‎accu\n‎accuse\n‎actus\n‎accuse\n‎accu?\n‎actus\n‎accu?\n‎acculd\n\n‎accult\n\n‎2000/55.\n\n‎2000/%6\n\n‎2000/57\n\n‎2000/59.\n\n‎2000/59\n\n‎2000/60\n\n‎2000/44\n\n‎2000/62\n\n‎2000/63\n\n‎2000764\n\n‎©\n\n‏اللريارة لميدقية.\n\n‎Cx)\n‎on",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "إدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‘Hussain All Alzahrani  lo\n\nطلبات التقييم.\n‎ap ote‏\n\n29/002020 ‏مطليفمطية‎ Gg At ‏العامة‎ ha\n\n11/10/2009 aise Ging Ae iy al\n\n11/10/2009 paises Aa ity al yal\n\nz2n7073 fant ycse Gig inl a\n\nsrore23 صصرطم‎ ١ ‏اليد‎ 565 0000١ SERVICES SAUOLARABALTO\n\n7 st\nedie\n75 wn\neine\n‏مولع عليه‎\n‏موق عليه‎\n\nYin ‏لج‎\n\n+ © هت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \nإدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-02",
+            "question": "كيف يمكنني مشاهدة الطلبات التي تم ترشيحي لها كقائد فريق؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.89,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "5/7",
+                    "found": [
+                        "إدارة الطلبات",
+                        "تسجيلك للدخول",
+                        "عضو",
+                        "قائد",
+                        "قبولها"
+                    ],
+                    "missing": [
+                        "الصفحة الرئيسية",
+                        "رفضها"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \nإدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "إدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‘Hussain All Alzahrani  lo\n\nطلبات التقييم.\n‎ap ote‏\n\n29/002020 ‏مطليفمطية‎ Gg At ‏العامة‎ ha\n\n11/10/2009 aise Ging Ae iy al\n\n11/10/2009 paises Aa ity al yal\n\nz2n7073 fant ycse Gig inl a\n\nsrore23 صصرطم‎ ١ ‏اليد‎ 565 0000١ SERVICES SAUOLARABALTO\n\n7 st\nedie\n75 wn\neine\n‏مولع عليه‎\n‏موق عليه‎\n\nYin ‏لج‎\n\n+ © هت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \nإدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nTAR\n\n3\n\nN\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n\nيا\n‎x‏\n\nq\n\nat\n> \n\n5\n\n6\nعدد الطلياث الحائية\n\nطلبات التقييم\nطلاث حديحة\n\nالمختدرات العامة وللحغصة 2 جديداصي\n\n‎dials‏ سارقة\n\n‎Seber\n\n‏اتسويس ‎tol)‏ والصداعات تحديدية.\n\n‏اللسويس للصلب والصباعات تحديدية\n\n‏سم لحي سمه\n\n‏شركة تال للاجهرة لت\n\n‎ete\n\n‎Hussatn All Alzahranl  ‏مرحبا‎\n\n‎te\n\n‎7579092023 ‏الممايرة‎ piso\n\n‎505 INSPECTION SERVICES SAUDI ARABIA LTD\n\n‎the tele\nee) BUREAU YERTTAS CO.\n\n‎1 oe\n\n‎1971072023 ‏فخص‎ pio\n\n‏جديدامسي\n‏16 3 لل الى\n‎yaad plas (Qualyas‏ 101001010123\n؟ راسي ‎Oe‏\n‎tio‏ ا#معايرة ;228104202\n88م ‎oes atts ‘ame‏\nالجديد ‎plas‏ فحص 2411092023\n‎“hos Nt‏\n‎psd pits‏ 0410000\n\n‎Y alps 8\n\n‏رقض\n\n‎© ©© a",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \nإدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center ‏\n\n5 2 BS\n3 © @ ~ vue a Cee) 45s\n‏اا لاا ا سيا ل 2# ا ا‎\nrman 8\n8 15\n6\nat ‏أعدهالطلات‎\n‏طلبات التقييم.‎\ntsp ‏طيت‎\n‏بو سماد م سماد موعدالاية‎ seve\n=I CE aitanets ‏لس‎ scent ia\n‏طيك سيق‎\nze rere err wat\nre nen ‏متطاقيت‎ “Guay ‏ليت العف وانصانات لتديخة‎\nae Wiles San ea ‘ote\nshone sinerats “patna ‏ا اال‎ ed na\nvy itm ‏سبق تمه‎ neg ee\n0 5 Breas ‏ل‎ “eho nalts\nar Whe satan ase sort\nre 000010 ‏تتحصة 505:3 سيدا لافيت‎ SMM\n‏الح‎ ota Seabee asta eam\noa ‏مات‎ nicl to ‏العقطاد‎ ead",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS\n\n‎oiled Jost 0‏ / متطليات نظام اتإدارة\n\n‏3 هل تغوم تهدارة العليا ‎Ago)‏ للتغليش بتعيين عضو في ‎fof‏ بض للاظر عن ‎gla‏ تأخرى   لديه مسؤولية وصائحية تشهل ها يلي\"\n\n‏لمودج ‎ants‏ بالأجهزة ‎asl‏ من أن اتعمئيات ‎Chay‏ للقرمة لنظام الإدارة يلم ‎LALLY‏ وتكفيذها واتمحافظة عليها؟ ‎deat‏\n‏جم ولتمولد والمعابير للمردعية تقديم التقارير إلى تزدثرة العليا عن ‎dal‏ نظام تبدارة ولي حلجة لللخصين؟\nالمستخدمة في جهة\n‎pu)‏ للمطابقة 6 52 824 هل جميع الوتائق وللعمنيات ‎Aoi‏ والسدائث لي المتدلفة بأامتيخاء متطليات 17020 150/16 لم تضمينها أو الإشارة إليها ‎of‏ تم ربطها بوثائق نظام الؤدارة؟\nلموذج قائمة بالعاملين ‎B25‏ هل يمكن لحميع الأفراد للمشاركين في قشطة اللفنيش الوحول إلى ‎Dal‏ وثائق نظام ‎Bag]‏ وللمعلوعات ذاث ‎Ala‏ اللي ‎Sib‏ على مسؤولياتهم؟\nفي ‎Ago‏ تقييم المطابقة\n‎fst‏ نسم قوع ‎SS) Bon‏ وشم ‎pth sd‏ الوطيعة\n1222 .00139\nلمودج برناعج المكارلة ‎pet 001 3966 v2‏\nالبيلية بين اكمختيراك 2000م\nولكثياراك الكخاءة 18 36\n‎date C) ne)‏ :222 ل كاوج لصفي",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-03",
+            "question": "ماذا يفعل قائد الفريق بعد انتهاء مرحلة الدراسة المكتبية؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 0.92,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "4/5",
+                    "found": [
+                        "إعادة الطلب",
+                        "اكتمال تقييم",
+                        "مراجعته",
+                        "مسؤول االعتماد"
+                    ],
+                    "missing": [
+                        "قائد الفريق"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \n©\n\nتلب قي ‎shale‏\n\n)© المجان\n\nنمودج قائمة بالأجهرة\n© وتمواح وتلصعارير المرجهية\n\nللمستخدمة مي دمة\n\nلقريم المطابقة 52 52\n\nلمودج قائمة بالعاملين.\n‎C)‏ مي جوة تقريم المطابقة\n‎F S1‏\n\nلموذح برنامج المقارلة\nالبيئية بين تلمخثبرات\nواختبارات الخفاعة ‎F+36‏\n\n0 التحفق\n\n©\n\n‎state}‏ مدال\n\n‎AB?\n\n‎LAg3\n\n‎Letts)\n\n‎ase\n\n‎LADO\n\n‏لها\n\n‎O\n\n‏همهم لتتحفق. ‎dase‏ قمتف\n\n‏الاجم\n\n‎Cen)\n‎. ‏لمعايرة‎ 6515) OTE VET / ‏(مقدم خدمة المسايرة‎ 2\n‏دن ص 27 قم حت‎\n\n‎APPLIACANTIO\n\n‎APPLIACANTI1\n\n‎APPLUACANTI2\n\n‎APPUACANTIZ\n\n‎APPLIACANTIG\n\n‎APPLUACANTIS\n\n‎APPLUACANTI6\n\n‎APPLIACANTIZ\n\n‎APPLIACANTIG\n\n‎APPLIACANTID\n\n‎cet\n\n‏م\n\n‎ccs\n\n‎ce\n\n‎ccs.\n\n‏مع\n\n‎2667\n\n‎cce\n\n‎cc10\n\n‎RANG?\n\n‎RANG?\n\n‎RANGE\n\n‎RANGS\n\n‎RANGS\n\n‎RANG?\n\n‎RANGD\n\n‎RANG?\n\n‎RANGID\n\n‎RANGIY\n\n‎O\n\n‎Butte ‏درسة‎\n\n‎accu2\n‎accu\n‎accuse\n‎actus\n‎accuse\n‎accu?\n‎actus\n‎accu?\n‎acculd\n\n‎accult\n\n‎2000/55.\n\n‎2000/%6\n\n‎2000/57\n\n‎2000/59.\n\n‎2000/59\n\n‎2000/60\n\n‎2000/44\n\n‎2000/62\n\n‎2000/63\n\n‎2000764\n\n‎©\n\n‏اللريارة لميدقية.\n\n‎Cx)\n‎on",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS\n\n‎oiled Jost 0‏ / متطليات نظام اتإدارة\n\n‏3 هل تغوم تهدارة العليا ‎Ago)‏ للتغليش بتعيين عضو في ‎fof‏ بض للاظر عن ‎gla‏ تأخرى   لديه مسؤولية وصائحية تشهل ها يلي\"\n\n‏لمودج ‎ants‏ بالأجهزة ‎asl‏ من أن اتعمئيات ‎Chay‏ للقرمة لنظام الإدارة يلم ‎LALLY‏ وتكفيذها واتمحافظة عليها؟ ‎deat‏\n‏جم ولتمولد والمعابير للمردعية تقديم التقارير إلى تزدثرة العليا عن ‎dal‏ نظام تبدارة ولي حلجة لللخصين؟\nالمستخدمة في جهة\n‎pu)‏ للمطابقة 6 52 824 هل جميع الوتائق وللعمنيات ‎Aoi‏ والسدائث لي المتدلفة بأامتيخاء متطليات 17020 150/16 لم تضمينها أو الإشارة إليها ‎of‏ تم ربطها بوثائق نظام الؤدارة؟\nلموذج قائمة بالعاملين ‎B25‏ هل يمكن لحميع الأفراد للمشاركين في قشطة اللفنيش الوحول إلى ‎Dal‏ وثائق نظام ‎Bag]‏ وللمعلوعات ذاث ‎Ala‏ اللي ‎Sib‏ على مسؤولياتهم؟\nفي ‎Ago‏ تقييم المطابقة\n‎fst‏ نسم قوع ‎SS) Bon‏ وشم ‎pth sd‏ الوطيعة\n1222 .00139\nلمودج برناعج المكارلة ‎pet 001 3966 v2‏\nالبيلية بين اكمختيراك 2000م\nولكثياراك الكخاءة 18 36\n‎date C) ne)‏ :222 ل كاوج لصفي",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nال وي موك ريوع 7سلُاورو ‎Oe‏ سو\n2 لجع عراب جع احص ‎Re | ca‏\n‎[el].‏ © 1 مدص صصص ]| دواد | مع |   |[ |\n‎ESE g‏ :\nالمساخدمة في جو ‎APPRIACANTI 7 ue 6١‏ عه تصيم | تمر  2000/55 ‎dane pt     sooo‏ تقييم انج\nي |\n‎APPLIACANTIY 7 um 2:‏ دع ‎oon 200/56 ACEUa RANG?‏ ممم غير محفلا اقيم ا\nست | ‎CEES‏\n‎a 0 5 Ee‏\n‎gum‏ بنامد المقرية ‎RANGS CCA APPLIACANTI. 9 erry [ol‏ قتعم م0 19072 2 عير مدل 92\n‎a | ee ee eee || SO‏\n‎RANG? C6. APPUACANTIS. 1 er 00 [|‏ نعم ينك  0015 ‎AGREENT‏ غير ‎dae‏ تقييم مد\n© سام «مصتصي حت مصتير مصير ا لتم ‎a‏\n‎RANG? OCR APPLIACANTI  2 LABS 2‏ قوعم ممم 007 ‎AGREEIS‏ عير مجقل. ‎putt‏\n‎«eee ©‏ #ومممتحي ست تمصي «سصرا فس فير ‎a‏\n‎acount RANGIT CC1D APPLIACANTIP 1s wsn @‏ عه نموم وروم م غير محخل. ‎aod‏\n‎[Came | ee ees ees   sess coe srmatony ee |‏\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center ‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \nﺷﻜـــﺮاﻟﻜـــﻢ\nاإلدارة العامة لتقنية المعلومات",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "اتخاذ القرار:\n1\n .\n ،بعد اعتماد مدير المجال لمرحلة اإلجراءات التصحيحية\nيقوم بإعادة الطلب إلى مسؤول االعتماد لترشيح أعضاء\nاللجنة الفنية، وإرسال القائمة لمدير المجال.\n2\n .يقوم مدير المجال بمراجعة قائمة أعضاء اللجنة الفني ة\nواعتمادها أو إرجاعها لمسؤول االعتماد للتعديل.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 8    \nlo\nlo\n\n{\ni? fo\n\nموافق عليه",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "ACC-04",
+            "question": "هل يمكن للجهة مراجعة تقرير الزيارة الميدانية؟ وماذا تفعل بعد ذلك؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.7,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/4",
+                    "found": [
+                        "اإلجراءات التصحيحية"
+                    ],
+                    "missing": [
+                        "تحليل األسباب الجذرية",
+                        "تقوم الجهة",
+                        "مراجعة تقرير الزيارة"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \nﺷﻜـــﺮاﻟﻜـــﻢ\nاإلدارة العامة لتقنية المعلومات",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \nاإلجراءات التصحيحية:\n4\n .بعد االنتهاء من تنفيذ اإلجراءات التصحيحية، تقوم ا لجهة\nبتقديم طلب اإلغالق، مضمنًا كافة الوثائق والشواه د\nالالزمة، وإرساله لمسؤول االعتماد.\n5\n .يقوم مسؤول االعتماد بدراسة الطلب، وإرسال مالحظات ه\nالمبدئية إلى الجهة للتصحيح أو إرسال الطلب إلى فري ق\nالتقييم للدراسة والمراجعة.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS\n\nتقديم\nقرار الإعتماد\nإرسال للقشيقين\nسجل ملاحظاتك\n123456\n\nmucin stl © | |\n\n9 JI\n\nالتفاصيل ب\n\nالتفاصيل 7/<\n\nالتفاصيل ب\n\nالشاهدل ب",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \nالدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nSt ery yh wit\nSaudijAccreditation(center  “IS\n\n‎oiled Jost 0‏ / متطليات نظام اتإدارة\n\n‏3 هل تغوم تهدارة العليا ‎Ago)‏ للتغليش بتعيين عضو في ‎fof‏ بض للاظر عن ‎gla‏ تأخرى   لديه مسؤولية وصائحية تشهل ها يلي\"\n\n‏لمودج ‎ants‏ بالأجهزة ‎asl‏ من أن اتعمئيات ‎Chay‏ للقرمة لنظام الإدارة يلم ‎LALLY‏ وتكفيذها واتمحافظة عليها؟ ‎deat‏\n‏جم ولتمولد والمعابير للمردعية تقديم التقارير إلى تزدثرة العليا عن ‎dal‏ نظام تبدارة ولي حلجة لللخصين؟\nالمستخدمة في جهة\n‎pu)‏ للمطابقة 6 52 824 هل جميع الوتائق وللعمنيات ‎Aoi‏ والسدائث لي المتدلفة بأامتيخاء متطليات 17020 150/16 لم تضمينها أو الإشارة إليها ‎of‏ تم ربطها بوثائق نظام الؤدارة؟\nلموذج قائمة بالعاملين ‎B25‏ هل يمكن لحميع الأفراد للمشاركين في قشطة اللفنيش الوحول إلى ‎Dal‏ وثائق نظام ‎Bag]‏ وللمعلوعات ذاث ‎Ala‏ اللي ‎Sib‏ على مسؤولياتهم؟\nفي ‎Ago‏ تقييم المطابقة\n‎fst‏ نسم قوع ‎SS) Bon‏ وشم ‎pth sd‏ الوطيعة\n1222 .00139\nلمودج برناعج المكارلة ‎pet 001 3966 v2‏\nالبيلية بين اكمختيراك 2000م\nولكثياراك الكخاءة 18 36\n‎date C) ne)‏ :222 ل كاوج لصفي",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \nالزيارة الميدانية:\n3\n .يقوم فريق التقييم بإجراء عملية التقييم أثناء ا لزيارة\nالميدانية والتحقق من مطابقة كافة البنود.\n4\n .\n يقوم قائد الفريق بإرسال تقرير الزيارة الميدانية(ا لمكون من\nعناصر المجال، وقوائم التحقق، والتوصيات )إلى مسؤول االعتماد للمراج عة\nواالعتماد.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    محتوى من الصور (OCR)    \nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center ‏\n\n| tl ‏يجراناك التصحيدية تتشي‎ ayers | Assets ‏عراجعة الملف‎ otal ais ‏إعتملد المجال‎ tates\nOo OC\natt | ‏الميحانية‎ eau | Ayes ‏خطة الزازة‎\n‏لمسسماء \"1 درنس عضن مطيق‎ [by ‏[شهدفهم‎ ةدوجريدم‎ 5 gages ١ ‏الأجوز المستحدمة جوم ا‎ @\n‏تتم‎ |\neta ‏ممصم | يم‎ ©\nal pl ‏ملتحظة‎ |\n| ‏اسيم لقف شيم‎ ©\n[anew || seo |\n3\nNatechoven | Chose ‏عا‎\n\nvain ‏مسي‎ — 2  — 3 6 5 86 we 5 6 ‏حب لد‎\n© ‏مآ هه ل‎\n‏خطة الزيارة الميدانية. الزارة الميدالية. | ##صير‎\n‏لس‎ aa\n{ICPMS) 7294 2 ironmental (Water 58 SE  SN V&ZN\nDein eee ot Ba Be. FP Ma Se TYE\n[etcetera | ‏ان ها ا‎ emitnarrosasatny |\n[sit [Renney | arty |\n2 ‏لشي ار و‎ 2 2255555555\n‏اا‎\n‎[reve ‏ا لش 1117 اا‎ | vest cits ¢hesing |\n‏لها ءإداء|ءاسا‎  | |",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "دلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\nتسجيل الدخول\nإدارة الطلبات\nالدراسة المكتبية\nالزيارة الميدانية\nاإلجراءات التصحيحية\nاتخاذ القرار\n03\n04\n05\n06\n08\n13\nالمراحل الرئيسية\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "final_rank": 5
+                }
+            ]
+        }
+    ]
+}

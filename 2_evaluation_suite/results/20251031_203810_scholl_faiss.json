@@ -1,0 +1,167 @@
+{
+    "report_info": {
+        "tenant_id": "scholl",
+        "retriever_type": "faiss",
+        "timestamp": "2025-10-31T20:38:10.676077",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 3
+    },
+    "evaluation_results": [
+        {
+            "case_id": "SCH-01",
+            "question": "كيف أرفع الواجب الفصلي (TMA)؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 1.0,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "5/5",
+                    "found": [
+                        "Add Submission",
+                        "TMA",
+                        "إختيار المقرر",
+                        "إضافة التقديم",
+                        "رفع الواجبات الفصلية"
+                    ],
+                    "missing": []
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    محتوى من الصور (OCR)    \n30 No second attempt for quizzes and ‘activities will be allowed 8\nJe Marks ‘of the first attempt for quizzes‘and activities Will be'considefed. 1\n١ 8 ‏مويه ف نت ددن‎ pieces\n‏امتح سادق ل‎\n| Mycourses:\n“2TM471 4 [M479] Graduation Project Part 1 \nTeacher: Youset 0711326  668 ‏وتادفاك‎ Prefect.\nTeacher: Sherifnom 0711342\" 00 1\nae ‏د‎ ١\n‏لت‎ tree MS ‏ايد لوم م‎ AL ‏وما‎ 1\n‏ل الله‎ Technolegy) |\n‏ةا‎ Fup Wetec ‏“وا‎ 0 etal\nnee  oe eR ‏د ب ا‎ 1\n1 hal ‏خسف‎\n\n15   ‏(رقترر0‎ Home Dashboard My courses Site administration\nwa py er creer ‏ل يج ينج م يس مجاه مجع‎\nPRACTICAL SKILL (PPT)\nE  Library Template\n\ntest TMA.\n\nTit Taw\n\n“بيه ف قوم راسف 18 01006\n\n‘Subrnission status: 1\n\neen \"\n\n“Bening and: «eh RE\n\n[maar]  Faanlomacbienden ge  \n\nsh\nYadhavenatnnden Find yi",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \n4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    محتوى من الصور (OCR)    \n“* No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n4\n2 ooieestusent sides 270 4 aces o>\n\n20  \n«tutes ‏الل‎\n\nMy courses\n\na\n‏زم‎\n\nSIM471 ° [TV477 Graduation ‏اععزن2‎ Par. *\n\nTeantier Yun o7 es Gradustion Pres\n\nTeacher shommon U7 V4 Gz\n‏م‎ IMSSS [TV335] Carn ucatiors Technalegy\nTower Rugs Wasco OFT IG1G ‏ا ل ب كي‎ Tecinulogy\n\nكاد اناك الك\n\n15   ‏ورومم0‎ Home Dashboard ‏برا‎ courses Site administration\n\nCc ONE OMER Crees tent ‏مايا هار و‎ ely\n\nHidden from students\n\nPRACTICAL SKILL (PPT)\n\nHidden from students\n\n| |\n\nC  Library Template\n\nو\n\nAdil subrrisslony 1\n\nYou Move not mode o submission yet.\n\nV(t AM\n\n16 Celmaary 2091\n\ntest IMA\n\nlint TAA\n\n‎OTe TNA chee 0‏ سيا\n\n‎Subrussion status\n\n‎No allertupt\n\n‎Neat peaches\nTrsttay 2 Baareh 2021 APOAAN ‏يم‎\n\n‎14 hy 101 hoor.\n\n‎Submission\n‎status\n\n‎Grading ztatus\n\n‎Time remaining\n\n‎Last modifled",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    محتوى من الصور (OCR)    \n“* No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n4\n2 ooieestusent sides 270 4 aces o>\n\n20  \n«tutes ‏الل‎\n\nMy courses\n\na\n‏زم‎\n\nSIM471 ° [TV477 Graduation ‏اععزن2‎ Par. *\n\nTeantier Yun o7 es Gradustion Pres\n\nTeacher shommon U7 V4 Gz\n‏م‎ IMSSS [TV335] Carn ucatiors Technalegy\nTower Rugs Wasco OFT IG1G ‏ا ل ب كي‎ Tecinulogy\n\nكاد اناك الك\n\n15   ‏ورومم0‎ Home Dashboard ‏برا‎ courses Site administration\n\nCc ONE OMER Crees tent ‏مايا هار و‎ ely\n\nHidden from students\n\nPRACTICAL SKILL (PPT)\n\nHidden from students\n\n| |\n\nC  Library Template\n\nو\n\nAdil subrrisslony 1\n\nYou Move not mode o submission yet.\n\nV(t AM\n\n16 Celmaary 2091\n\ntest IMA\n\nlint TAA\n\n‎OTe TNA chee 0‏ سيا\n\n‎Subrussion status\n\n‎No allertupt\n\n‎Neat peaches\nTrsttay 2 Baareh 2021 APOAAN ‏يم‎\n\n‎14 hy 101 hoor.\n\n‎Submission\n‎status\n\n‎Grading ztatus\n\n‎Time remaining\n\n‎Last modifled",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    OCR Text from Image 1    \n+ No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n‎ov stusents tinide 20v9 21 aocessinie‏ ها\n\n‎BD tute survey\n\n‎© 1114711 [TM477] Graduation Project Part 1\n\n‎Teacher Yousef 0771225 Graduation Project\nTeacher: Sherimon 0711362\n\n‎© 111355 [TM355] Communications Technology\nTeacher: Raja Wascern 0711010 Commurticotions Tesmlogy\n\n‎All courses \n    OCR Text from Image 2    \n15   Oman Home Dashboard My courses Site administration\n\nPRACTICAL SKILL (PPT)\n\nC  Library Template\n    OCR Text from Image 3    \ntest TMA\n\nlead TMA \nTest TMAdooe 15 February 2021  10 44 AM\n\nSubmission status\nSubmission No attempt\n\nGrading status Not isco\n\nTuoneay  2 March 2021  120 AM < —\nTime remaining 14 days 13 hours\nLast modified  \n\n+ | مد |\n\nYou have not made a submission yet.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \n6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    محتوى من الصور (OCR)    \ntest TMA\n\ntea IMA\n\nwm ter MA Ace Whebapary ‏كلام‎ 10 4 AM\n\nSubmission suas\n\nSubmission Suberstted for grading\nstatus\nGrading status Not qraded\nQuo date tartthay 4 Starch ‏تلك‎ SU Ae\nTime remalaing 14 tlaryss 12 bots\nLast modified Munubsy  15 ‏عن‎ sary 2021 1 02 AD\nFile submissions 4\n@ 0 ‏ال‎ 15 Febryaty 2021 1102 AM\n\ntit sLorerssien Rercne ‏6ر1 تتعتي؟‎\n\nSubmission status\n\nSubmisston Submitted for grading\n\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions\nMei Test TMA.docx 15 February 2021  11:02 AM\n\nEdit submission Remove submission",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-02",
+            "question": "دخلت على المقرر، كيف أجد المحاضرات والكتاب؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 0.9,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "3/4",
+                    "found": [
+                        "my courses",
+                        "المحاضرات",
+                        "الملف المراد تحميله"
+                    ],
+                    "missing": [
+                        "الكتاب الإلكتروني"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    محتوى من الصور (OCR)    \naT hl aaa oat Been en\nTOS ‏ست قسغ‎\n\nDaeaities: 2 ‏كج ني‎ Shashi | Ys ‏دنا ملؤي‎\n0 ‏قار ا‎ elie itor Gant 5 minutes!\n١ Ghident Handbooks  @ourses Catalogues  We BV ‏مده بد م000‎ Aya wt\nee tudent Handbook urses Cotologucs Soe Deane Al Nati  wm\n= =. ‏دص طاو‎ GF; 0\n‏أ هده‎ oC. ‏امزال عير‎ ey ‏م راشي‎ sTucitiy of * ayia ‏د ا‎\neset ‏ل :عسس اسك‎ | Conipiter + Lamernge   Education ey comes\nSESH  sindies « tee Studies; eo studies” 3 Studies. 77 ‏م‎ And a2 fale 22) ‏ماهم‎\n‎te vs pe 3 core ٠١ cérnrdunleatlon Sulit 1\" \n000 ‏اكلاط] ذ1 أكنام ويم‎ ai seat\n‏خوو متم سلس تايس لت ده‎ BAararperiben :\n١ ‏ا 1 وجب‎   iehistigarian ‏ا‎\n‎5 SD Attics 5 ‏فذقو .ا‎ A\nAOU  GB AD 7 beet SVM ey. ern ff\n1 1 9 0   ‏حم‎ ٠: tos oan  ‏لحك لاد‎\n‏باو أت\"‎ hore for AQU Polices upd ‏واه آنرذًا‎ Hl ee oF\nCHgk bers for AQU Poliges und Byluye: Sunni’\n1 0 SS\nOO ean qe\n‏لد‎ [ea tren 3\non ‏ا‎",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    OCR Text from Image 1    \nBoren\n‏ومسا سمسزيق ام‎\n\nsupport\nses ‏اللتواصل و‎\n\nLearning Management System — Oman Branch\n\n1 see tee\n    OCR Text from Image 2    \nFaculties |\n\n1 5 Online users\nYogramme Specifications 1\n\ndora srs Oust 8 ‏سنح‎\n‎Qeadent Handbooks  “Courses Catalogues  Br Dr Harned Al vetenadl gp\n\nOther users (3)\nFaculty of Faculty of Faeulty of Faculty of reer ee\nBusiness Computer Language ducation id\n‘Studies Studies Studies Studies: FR AR112 [AKI 12) Arabic\nCommunication Skit\nCED A 65115 1005179) smal\nCB \nAOU £% Dy laws\n\nBusiness Management\nClick here for AOU Polices and Bylaws\n\n* الل لس واج جح للدت\n‎Blog mers‏\n    OCR Text from Image 3    \nTuesday  1 ‏الم كوم‎\nMicrosoft Teams Access code: fofd7as\n\nCourse Slides\n\nالمحاضرات والعلفات الخاصة بالعقرر\n\nالكتاب الالكترونى للمقرر",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    محتوى من الصور (OCR)    \nينك\n‎support‏\n\nللتواصل و الدعمر\n\n‎Lat‏ عل جه عدي بارع\n\n‎Learning Management Systern — Oman Branch\n\n‎sats‏ الب الحم لجرا\n‎OSI‏ فرع رفت\n\n‎2222\n\n‎MA ed ase Gatti ‏الممترحاة‎ Uy at edad Li Sel\ner Tee)\n\n‎(eee taste Pay\n\n‎DS coe remand pane ae\n\n‎Srrtest Tarecice\n9\n\n‎(UTRANSCAIPT\n‏سج‎\n\n‎Fanner Char ‏و‎\n\n‎Lets communicate and colladosate with\notter LMS uzers throush Facebook\n\n‎GOES\n‎35 rE\nSyd\n\nOnline users\n\n4 online users (last ‏ك5‎ minutes)\n04 We etamed Al valimads ‏حص‎\n\nOther users (3)\n\nكك ب ‎My‏\n\nFE AIT [ATCT Lap ‏سام نك‎\nCommunication skills (Up\nFS NE eat\nDeissvens ‏لل‎\n\nNovicganon\n\n‎Homo‏ مد\n‎@D Vashbosrd‏\n‎IMS   Ona‏ م\nنام ‎v My‏\n‎AMS‏ >\n‎Wun‏ >\n\n‎Pluocy ‏ليل‎\n\n‏ممسم] رار رص ‎tlpaan‏\n\n‎. 2 ‏نت‎ Pro amme Specifications / 9\nZe\n\n‎TT .\nCAudent Handbooks  Courses € atalogues  ‏اا‎\n\n‎Faculty of Faculty of Faculty of\nComputer ‏كن ما اها‎\nStudies Studies Studies\n\n‎Coles\n\n‎AOU Byram\n\n‎Click here for AOU Polices and bylaws\n\n‎Faeults of\nCy eS 1\nStudies\n\n‎Cea\n\nee ‏لفو‎ eee\n‏لا مرماملة‎\n\nا ‎Meet‏ مسمررت\n\nعله ‎gt‏ ممصي ‎beret BAT‏ ووصمون وااوماة\nامسا نه ‎toc bon‏ 64119 81(\n\nCree Ta The ‏وم‎ NEC Tod Ree ‏كاه أرجت وصور‎ OG LOMNOTOW 2 ‏ررن جا ع‎ BOM 417 ATIOE Comer O s  £1904  Of ence ‏ع‎ tn Comme CANE  The\n‏ده د الحا متحت‎ ley",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \n3\n \nc.\n:يتم تحويلك للصفحة الرئيسية للنظام\n \nd.) يمكنك الدخول لصفحة المقررات التي تدرسها في الفصل الدراسي my courses( من خالل نافذة\n\t\ne.\n :)ثم الضغط على الملف المراد تحميله (المحاضرات والواجبات والكتاب اإللكتروني\n\n    محتوى من الصور (OCR)    \nينك\n‎support‏\n\nللتواصل و الدعمر\n\n‎Lat‏ عل جه عدي بارع\n\n‎Learning Management Systern — Oman Branch\n\n‎sats‏ الب الحم لجرا\n‎OSI‏ فرع رفت\n\n‎2222\n\n‎MA ed ase Gatti ‏الممترحاة‎ Uy at edad Li Sel\ner Tee)\n\n‎(eee taste Pay\n\n‎DS coe remand pane ae\n\n‎Srrtest Tarecice\n9\n\n‎(UTRANSCAIPT\n‏سج‎\n\n‎Fanner Char ‏و‎\n\n‎Lets communicate and colladosate with\notter LMS uzers throush Facebook\n\n‎GOES\n‎35 rE\nSyd\n\nOnline users\n\n4 online users (last ‏ك5‎ minutes)\n04 We etamed Al valimads ‏حص‎\n\nOther users (3)\n\nكك ب ‎My‏\n\nFE AIT [ATCT Lap ‏سام نك‎\nCommunication skills (Up\nFS NE eat\nDeissvens ‏لل‎\n\nNovicganon\n\n‎Homo‏ مد\n‎@D Vashbosrd‏\n‎IMS   Ona‏ م\nنام ‎v My‏\n‎AMS‏ >\n‎Wun‏ >\n\n‎Pluocy ‏ليل‎\n\n‏ممسم] رار رص ‎tlpaan‏\n\n‎. 2 ‏نت‎ Pro amme Specifications / 9\nZe\n\n‎TT .\nCAudent Handbooks  Courses € atalogues  ‏اا‎\n\n‎Faculty of Faculty of Faculty of\nComputer ‏كن ما اها‎\nStudies Studies Studies\n\n‎Coles\n\n‎AOU Byram\n\n‎Click here for AOU Polices and bylaws\n\n‎Faeults of\nCy eS 1\nStudies\n\n‎Cea\n\nee ‏لفو‎ eee\n‏لا مرماملة‎\n\nا ‎Meet‏ مسمررت\n\nعله ‎gt‏ ممصي ‎beret BAT‏ ووصمون وااوماة\nامسا نه ‎toc bon‏ 64119 81(\n\nCree Ta The ‏وم‎ NEC Tod Ree ‏كاه أرجت وصور‎ OG LOMNOTOW 2 ‏ررن جا ع‎ BOM 417 ATIOE Comer O s  £1904  Of ence ‏ع‎ tn Comme CANE  The\n‏ده د الحا متحت‎ ley",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "ا ‎Meet‏ مسمررت\n\nعله ‎gt‏ ممصي ‎beret BAT‏ ووصمون وااوماة\nامسا نه ‎toc bon‏ 64119 81(\n\nCree Ta The ‏وم‎ NEC Tod Ree ‏كاه أرجت وصور‎ OG LOMNOTOW 2 ‏ررن جا ع‎ BOM 417 ATIOE Comer O s  £1904  Of ence ‏ع‎ tn Comme CANE  The\n‏ده د الحا متحت‎ ley\n\nTuesday  1PM 3PM\n\nMicrosoft Teama Access 2006:\n‏بق‎ eranty ‏خط | محمم؟‎\n\nاك\nجومم نجه\n\nهه جاده كوو مح © +171 مجه ببح ع بوي 7 ور 7 المت حاحت لبك 07 ‎FOS eet UII‏ بحنو سوب\n‎IA‏ وت يشمو 6ت 07وم ركد ‎LAND‏ فم\n\n‎ts OD‏ وجرا ‎mente tow ta‏ امقيس مود لجح\n\n‏ون ‎te Nu ey le‏ ممم له مد حت\n\n‎Courts ‏تهات‎\n\n‏المحاضرات والعلفات الخاصة العقرر\n\n‎GUI‏ الالكترونى للمقرا\n\n‏قل صن ول ‎Pret HO‏\n\n‏لل ةا\n\n‎| orn eee",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-03",
+            "question": "أريد التأكد من أن واجبي تم تسليمه بنجاح، كيف أعرف؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0,
+                "total_seconds": 0.06
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.7,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "1/4",
+                    "found": [
+                        "Submitted for grading"
+                    ],
+                    "missing": [
+                        "الملف مرفق",
+                        "تم رفع الملف بنجاح",
+                        "حالة التقديم"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    محتوى من الصور (OCR)    \n‘test: TMA:\n‘test IMA >\n‘ig ctestimadeor. ‏ذل‎ February 2021  1044 AM \nSuibitision status.\n= i ‏مح ا‎\n‏.ضفو‎ | lsubnded ioeming | =\ntae Ee\nrating tie retail”\n‏ولا سرام ا‎ i  auntie\nht a ‏ا ا‎\n‏لفان امعد تمر‎ hn\n+ ‏لم‎ ane oe\nfbsstimodiied ¢ Mig. 15 Kebraary 2084  4402 0M\nFieaubinsions [| nee pe peepee et :\n‏توحتح رود عدم | سيا‎\nedit soisslen J | Reraove submission. 1\n\nSubmission;status:\n\n‘Submission. ——  Subritted Tok gfaditiy\n\n‘Giading status. { Not Graded.\n‏اساي‎ flue MTAAISINTSSOAN.\n\ntime femaining 114 'days 11 hours.\n[Pinu Sea. one Suna ania 00000000000000\ndastmodified.” =“ Monday 15 Febriary:2021; 17;02;AM\"\n\neet ane Teme S| Se NSE de en ae\n\nFile Submissions: ei pe ge titer mie\n\nmeer CERTTeStTIMAdeot ei February.2027. 11.02 AM :\n\n{Edit sabmission | [iRemave'submission| |",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \n6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    محتوى من الصور (OCR)    \ntest TMA\n\ntea IMA\n\nwm ter MA Ace Whebapary ‏كلام‎ 10 4 AM\n\nSubmission suas\n\nSubmission Suberstted for grading\nstatus\nGrading status Not qraded\nQuo date tartthay 4 Starch ‏تلك‎ SU Ae\nTime remalaing 14 tlaryss 12 bots\nLast modified Munubsy  15 ‏عن‎ sary 2021 1 02 AD\nFile submissions 4\n@ 0 ‏ال‎ 15 Febryaty 2021 1102 AM\n\ntit sLorerssien Rercne ‏6ر1 تتعتي؟‎\n\nSubmission status\n\nSubmisston Submitted for grading\n\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions\nMei Test TMA.docx 15 February 2021  11:02 AM\n\nEdit submission Remove submission",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    محتوى من الصور (OCR)    \ntest TMA\n\ntea IMA\n\nwm ter MA Ace Whebapary ‏كلام‎ 10 4 AM\n\nSubmission suas\n\nSubmission Suberstted for grading\nstatus\nGrading status Not qraded\nQuo date tartthay 4 Starch ‏تلك‎ SU Ae\nTime remalaing 14 tlaryss 12 bots\nLast modified Munubsy  15 ‏عن‎ sary 2021 1 02 AD\nFile submissions 4\n@ 0 ‏ال‎ 15 Febryaty 2021 1102 AM\n\ntit sLorerssien Rercne ‏6ر1 تتعتي؟‎\n\nSubmission status\n\nSubmisston Submitted for grading\n\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions\nMei Test TMA.docx 15 February 2021  11:02 AM\n\nEdit submission Remove submission",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    OCR Text from Image 1    \ntest TMA\n\ntest IMA\n\n8 lest IMAdoor 15 February 2021  1044 AM.\nSubmission status\n\nGrading status Not graded\n\n‘Due date veal  2 Mate 21023  12K AN\nTime remaining 14 tay 1? hours\nLast modified Moruday  15 Fetruary 2021  1102 AM\n\n15 February 2021  1102 AM\n\n‘edit submission emove submission\n    OCR Text from Image 2    \nSubmission status\n\n=\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\n\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions :\n‘WA Test TMAdocx 15 February 2021  11:02 AM\n\nEdit submission Remove submission 1",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \n4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    محتوى من الصور (OCR)    \n“* No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n4\n2 ooieestusent sides 270 4 aces o>\n\n20  \n«tutes ‏الل‎\n\nMy courses\n\na\n‏زم‎\n\nSIM471 ° [TV477 Graduation ‏اععزن2‎ Par. *\n\nTeantier Yun o7 es Gradustion Pres\n\nTeacher shommon U7 V4 Gz\n‏م‎ IMSSS [TV335] Carn ucatiors Technalegy\nTower Rugs Wasco OFT IG1G ‏ا ل ب كي‎ Tecinulogy\n\nكاد اناك الك\n\n15   ‏ورومم0‎ Home Dashboard ‏برا‎ courses Site administration\n\nCc ONE OMER Crees tent ‏مايا هار و‎ ely\n\nHidden from students\n\nPRACTICAL SKILL (PPT)\n\nHidden from students\n\n| |\n\nC  Library Template\n\nو\n\nAdil subrrisslony 1\n\nYou Move not mode o submission yet.\n\nV(t AM\n\n16 Celmaary 2091\n\ntest IMA\n\nlint TAA\n\n‎OTe TNA chee 0‏ سيا\n\n‎Subrussion status\n\n‎No allertupt\n\n‎Neat peaches\nTrsttay 2 Baareh 2021 APOAAN ‏يم‎\n\n‎14 hy 101 hoor.\n\n‎Submission\n‎status\n\n‎Grading ztatus\n\n‎Time remaining\n\n‎Last modifled",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "final_rank": 5
+                }
+            ]
+        }
+    ]
+}

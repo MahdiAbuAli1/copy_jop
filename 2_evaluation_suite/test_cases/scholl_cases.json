@@ -1,0 +1,36 @@
+[
+    {
+        "case_id": "SCH-01",
+        "question": "كيف أرفع الواجب الفصلي (TMA)؟",
+        "expected_keywords": [
+            "رفع الواجبات الفصلية",
+            "TMA",
+            "إختيار المقرر",
+            "Add Submission",
+            "إضافة التقديم"
+        ],
+        "expected_source": "LMS Guideline.pdf"
+    },
+    {
+        "case_id": "SCH-02",
+        "question": "دخلت على المقرر، كيف أجد المحاضرات والكتاب؟",
+        "expected_keywords": [
+            "my courses",
+            "المحاضرات",
+            "الكتاب الإلكتروني",
+            "الملف المراد تحميله"
+        ],
+        "expected_source": "LMS Guideline.pdf"
+    },
+    {
+        "case_id": "SCH-03",
+        "question": "أريد التأكد من أن واجبي تم تسليمه بنجاح، كيف أعرف؟",
+        "expected_keywords": [
+            "تم رفع الملف بنجاح",
+            "Submitted for grading",
+            "الملف مرفق",
+            "حالة التقديم"
+        ],
+        "expected_source": "LMS Guideline.pdf"
+    }
+]

@@ -1,0 +1,219 @@
+{
+    "report_info": {
+        "tenant_id": "un",
+        "retriever_type": "bm25",
+        "timestamp": "2025-10-31T20:38:16.573948",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 4
+    },
+    "evaluation_results": [
+        {
+            "case_id": "UN-01",
+            "question": "أنا مورد جديد، كيف أبدأ وأسجل في البوابة؟",
+            "timing": {
+                "retrieval_seconds": 0.0,
+                "rerank_seconds": 0,
+                "total_seconds": 0.0
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.6,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "0/4",
+                    "found": [],
+                    "missing": [
+                        "www.ungm.org",
+                        "إنشاء تسجيل الدخول",
+                        "بوابة الأمم المتحدة العالمية للمشتريات",
+                        "تسجيل الموردين"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nبع بع © © م\n\n€sourcingunops+4 © ‏جم  اهداق‎ 2017 10 4 09:54 UTC\n\nCe [| | ‏مده جه | | مح‎\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nSupport of UNMAS Mali\n\n(Destii\n\nOlay  LTS\n\nلها ‎Silay‏ نان\n\n  TN yeti SAC ie tb ose ate WOT apy  ROURAT Uy SAT 01010 ULI  MRSME NIL aoc:\n\na | TENDER INFORMATION | VENDOR CONFIRMATION | VENDOR SuBMI\n\nGENERAL INFORMATION TENDER PARTICULARS EVALUATION CRITERIA\n\nDOCUMENTS REVISIONS\n\nREQUEST A CLARIFICATION\n\nSS SESS ea apm Response 1\nCariication Rn a ae EN\n\nbatrecuested (7\n\nom aN OFS cots req test\n\nNo data was foung",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "محتوى نصي    \n2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n7\n\nfm ‏اع © هه‎ ©\nesourcingunops+1@gmail.com 2017 10 24 09:54 UTC\nYour submission for UNOPS Tender 75 ‏لها لساك‎ Go]\nep | Lee ‏ع‎\n‎Provision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n‏1ك‎ ist] in Draft stalus and you may continue to add or edit information  You can only Submit a vendor submission if before the deadline\n‏هه‎ | TENDER INFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\nGENERALINFORMATION ‏ج1810‎ PARTICULARS — EVALUATIONCRITERIA DOCUMENTS REVISIONS | REQUEST A CLARIFICATION\nclarfication wil be posted by UNOPS In the Revislons tab  without Identifng the vendor that recnrested ft\nNo data was found.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n® M& © en &\nesourcingunops+1@gmall.com 2017 10 24 09:54 UTC\n\nYour submission for UNOPS Tender RFP/201 7/1 7875 37 || ©) || 5\n\n(days) ‏لمعته | | تكسم دسم‎\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nDyestii\n\n‎SAL TEE: UMN SS ES OTE HTS TESTS‏ ازا ‎VOLO She‏ رورم ال ‎SUMS oli S SUNT EUS TY ATS eG of SH‏ لمر\n\n‎«| TENDERINFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n\n‎GENERAL INFORMATION TENDER PARTICULARS EVALUATION CRITERIA DOCUMENTS REVISIONS REQUEST A CLARIFICATION\n\n‎0 Preasa nous thatany reqlest ‏طن بها‎ {ication ‏هرجه‎ submit herawy||lonly.oa sible. yolren dnosay cthenven ‏جا‎\n‎fefarificaon will pe posted Sy UNOESIn the Revisions tab trtnour denuiving tavendogtist requested [0\n\n‎ponses {ror UNOPS totiisreq test (og",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n7",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-02",
+            "question": "ما الفرق بين المناقصة المفتوحة والمناقصة المحدودة؟",
+            "timing": {
+                "retrieval_seconds": 0.0,
+                "rerank_seconds": 0,
+                "total_seconds": 0.0
+            },
+            "evaluation": {
+                "status": "❌ فشل",
+                "final_score": 0.0,
+                "source_check": "❌",
+                "keyword_evaluation": {
+                    "score": "0/5",
+                    "found": [],
+                    "missing": [
+                        "الجميع",
+                        "القائمة المختصرة",
+                        "المنافسة المحدودة",
+                        "المنافسة المفتوحة",
+                        "عدد محدود من الموردين"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n7",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 02 ® 22\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSTOTT Ea\n\nSee Uni ‏وى‎ one\n\n‎eae se ey aS‏ زا ‎Sree ve ee lee eS‏ الاسمشليليت\n\n‎@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDORSUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\n‎QUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS (7) SUBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 212 29 29\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSUD te\n\nPee OSS TEE\n\nSOE alec eles lly ey oe RG) ES\n\n@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS [7] SUBMIT\n\n‘Thank you for submitting your response to this tender. Please note that you may withdraw your submission at any time before the tender deadline by clicking the button below. If",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "1\n .\n إبالغ مكتب األمم المتحدة لخدمات المشاريع عن نيتك لتقديم رة(أو ال)\nUNOPS eSourcing training for Vendors v1.3\n24\n\n ود مكتب األمم المتحد لخدمام المشار ع ةن ارف ما ااا نت تنوي تقد م ةو عدم تقد م رد عشدإ\nالمناقصة ألن هذه الماشومام مفةد جدا لامشةة الشراء التي نتباها\n\n ةنقر فوق عالمة التبو ب\nيأكيد المورة\n \n ةنقر فوق الزر\nنعم(ةخضر )\n ةو الزر\nال(ةحمر)\n ااا قمت بتحد د ال، فسةُيشب منك توفةح السبب\n\n مكنك فقط النقر فدوق نادم ةو ال مدر واحدد .\n ااا قمدت بدالنقر فدوق\nال ،فسدةظل بإمكاندك ار سدال رد\nالمورد\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nesourcingunopst1@gmailcom 2017 10 24 08:50 UTC\nYour submission for UNOPS Tender\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nVendor confirmation\n\nYES  we intend to submita response | NO  we do not intend to submit a response",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-03",
+            "question": "إذا كان عرضي بقيمة 60 ألف دولار، ما هي طريقة التماس العروض التي ستستخدمونها؟",
+            "timing": {
+                "retrieval_seconds": 0.0,
+                "rerank_seconds": 0,
+                "total_seconds": 0.0
+            },
+            "evaluation": {
+                "status": "❌ فشل",
+                "final_score": 0.08,
+                "source_check": "❌",
+                "keyword_evaluation": {
+                    "score": "1/5",
+                    "found": [
+                        "خدمات"
+                    ],
+                    "missing": [
+                        ">50,000",
+                        "دعوة لتقديم عطاءات",
+                        "سلع و أعمال",
+                        "طلب تقديم عرض"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n7",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "1\n .\n إبالغ مكتب األمم المتحدة لخدمات المشاريع عن نيتك لتقديم رة(أو ال)\nUNOPS eSourcing training for Vendors v1.3\n24\n\n ود مكتب األمم المتحد لخدمام المشار ع ةن ارف ما ااا نت تنوي تقد م ةو عدم تقد م رد عشدإ\nالمناقصة ألن هذه الماشومام مفةد جدا لامشةة الشراء التي نتباها\n\n ةنقر فوق عالمة التبو ب\nيأكيد المورة\n \n ةنقر فوق الزر\nنعم(ةخضر )\n ةو الزر\nال(ةحمر)\n ااا قمت بتحد د ال، فسةُيشب منك توفةح السبب\n\n مكنك فقط النقر فدوق نادم ةو ال مدر واحدد .\n ااا قمدت بدالنقر فدوق\nال ،فسدةظل بإمكاندك ار سدال رد\nالمورد\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nesourcingunopst1@gmailcom 2017 10 24 08:50 UTC\nYour submission for UNOPS Tender\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nVendor confirmation\n\nYES  we intend to submita response | NO  we do not intend to submit a response",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 02 ® 22\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSTOTT Ea\n\nSee Uni ‏وى‎ one\n\n‎eae se ey aS‏ زا ‎Sree ve ee lee eS‏ الاسمشليليت\n\n‎@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDORSUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\n‎QUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS (7) SUBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 212 29 29\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSUD te\n\nPee OSS TEE\n\nSOE alec eles lly ey oe RG) ES\n\n@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS [7] SUBMIT\n\n‘Thank you for submitting your response to this tender. Please note that you may withdraw your submission at any time before the tender deadline by clicking the button below. If",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        },
+        {
+            "case_id": "UN-04",
+            "question": "ماذا يعني مصطلح 'أعلى جودة بأفضل سعر'؟ هل هو أقل سعر فقط؟",
+            "timing": {
+                "retrieval_seconds": 0.0,
+                "rerank_seconds": 0,
+                "total_seconds": 0.0
+            },
+            "evaluation": {
+                "status": "❌ فشل",
+                "final_score": 0.0,
+                "source_check": "❌",
+                "keyword_evaluation": {
+                    "score": "0/5",
+                    "found": [],
+                    "missing": [
+                        "أعلى جودة بأفضل سعر",
+                        "تكلفة التشغيلية",
+                        "تكلفة الصيانة",
+                        "كلفة مدة الاستخدام",
+                        "ليس سعر الشراء فقط"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n7",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 1
+                },
+                {
+                    "content": "5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 3    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n© | TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST [EE   FINANCIAL OFFER DETAILS suBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 2
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 02 ® 22\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSTOTT Ea\n\nSee Uni ‏وى‎ one\n\n‎eae se ey aS‏ زا ‎Sree ve ee lee eS‏ الاسمشليليت\n\n‎@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDORSUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\n‎QUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS (7) SUBMIT",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 3
+                },
+                {
+                    "content": "محتوى نصي    \n5\n .عرض ويحرير وسحب رة على المناقصة\nUNOPS eSourcing training for Vendors v1.3\n28\nبمجدرد تقدد مك رد المدورد عشدإ المناقصدة، فإند مكندك تنفةدذ اإلجدراءام التالةدة :عدرض وت حر در\n وسحب رد(\n ردود)\n\n مكنك فقط تاد ل وسحب الرد قبل الموعد النهائي لشتقد م\n ما هو محدد فدي عالمدة التبو دب معلومةات\n عامة تحت\nمعلومات المناقصة\n\n مكنك سحب رد في ةي وقت\nقبل\nالموعد النهائي لشتقد م\n\n اختر\nالمناقصة\nالتي ترغب في سحب رد منها\n\n باد الك، انتقل الإ عالمة التبو ب\nإرسال وانقر فوق\nسحب التقديم\n\n ستتغةر حالة الرد الذي تقوم بسحب مدن يةم التقةديم(بدالشون األخضدر )\n الدإ مسدود(بدالش\nون األزرق .)\n مكنك باد الك تحر ر المناقصة واإلرسال مر ةخرى في حال ان الك قبل الموعد النهائي\n\n تم تجاهل مسود الدردود مدن\nنظدام الشدراء اإللكتروندي لمكتدب األمدم المتحدد لخددمام المشدار ع\nبمجرد انتهاء الموعد النهائي لشتقد م\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \nYour submission for UNOPS Tender 212 29 29\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nSUD te\n\nPee OSS TEE\n\nSOE alec eles lly ey oe RG) ES\n\n@ | TENDERINFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n| ALTERNATIVE OFFERS\n\nQUESTIONNAIRES DOCUMENT CHECKLIST FINANCIAL OFFER DETAILS [7] SUBMIT\n\n‘Thank you for submitting your response to this tender. Please note that you may withdraw your submission at any time before the tender deadline by clicking the button below. If",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 4
+                },
+                {
+                    "content": "محتوى نصي    \n2\n .طلب يو يح بشأن المناقصة\nUNOPS eSourcing training for Vendors v1.3\n25\nفي حال ان لد ك ةسدئشة حدول هدذه المناقصدة، فإند مكندك تقدد م طشدب توفدةح الدإ مكتد ب األمدم\nالمتحد لخدمام المشار ع\n\n ةنقر فوق عالمة التبو ب\nمعلومات المناقصة\n\n ةنقر فوق عالمة التبو ب\nطلب يو يح\n\n ةنقر فوق زر\nطلب يو يح\n\n ةدخل سؤالك(ةسئشتك)\n\n ةنقر فوق زر\nإرسال طلب التو يح\n\n ستكون اليشبام مرئةة لك\nولةس ألي مورد آخر\n\n مكنك فقط تقد م طشب التوفةحام\nقبل الموعد النهائي لشتوفةحام\n\n مكن اإلطالع عشإ هذا الموعد النهائي في عالمة التبو ب\nمعلومات عامة\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    محتوى من الصور (OCR)    \n® M& © en &\nesourcingunops+1@gmall.com 2017 10 24 09:54 UTC\n\nYour submission for UNOPS Tender RFP/201 7/1 7875 37 || ©) || 5\n\n(days) ‏لمعته | | تكسم دسم‎\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\nDyestii\n\n‎SAL TEE: UMN SS ES OTE HTS TESTS‏ ازا ‎VOLO She‏ رورم ال ‎SUMS oli S SUNT EUS TY ATS eG of SH‏ لمر\n\n‎«| TENDERINFORMATION | VENDOR CONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n\n‎GENERAL INFORMATION TENDER PARTICULARS EVALUATION CRITERIA DOCUMENTS REVISIONS REQUEST A CLARIFICATION\n\n‎0 Preasa nous thatany reqlest ‏طن بها‎ {ication ‏هرجه‎ submit herawy||lonly.oa sible. yolren dnosay cthenven ‏جا‎\n‎fefarificaon will pe posted Sy UNOESIn the Revisions tab trtnour denuiving tavendogtist requested [0\n\n‎ponses {ror UNOPS totiisreq test (og",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "final_rank": 5
+                }
+            ]
+        }
+    ]
+}

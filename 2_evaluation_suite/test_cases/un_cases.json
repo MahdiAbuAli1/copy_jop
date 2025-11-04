@@ -1,0 +1,49 @@
+[
+    {
+        "case_id": "UN-01",
+        "question": "أنا مورد جديد، كيف أبدأ وأسجل في البوابة؟",
+        "expected_keywords": [
+            "تسجيل الموردين",
+            "www.ungm.org",
+            "بوابة الأمم المتحدة العالمية للمشتريات",
+            "إنشاء تسجيل الدخول"
+        ],
+        "expected_source": "UNOPS_eSourcing_eSourcing-system-Arabic.pdf"
+    },
+    {
+        "case_id": "UN-02",
+        "question": "ما الفرق بين المناقصة المفتوحة والمناقصة المحدودة؟",
+        "expected_keywords": [
+            "المنافسة المفتوحة",
+            "المنافسة المحدودة",
+            "الجميع",
+            "عدد محدود من الموردين",
+            "القائمة المختصرة"
+        ],
+        "expected_source": "UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf"
+    },
+    {
+        "case_id": "UN-03",
+        "question": "إذا كان عرضي بقيمة 60 ألف دولار، ما هي طريقة التماس العروض التي ستستخدمونها؟",
+        "expected_keywords": [
+            "طلب تقديم عرض",
+            "دعوة لتقديم عطاءات",
+            ">50,000",
+            "سلع و أعمال",
+            "خدمات"
+        ],
+        "expected_source": "UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf"
+    },
+    {
+        "case_id": "UN-04",
+        "question": "ماذا يعني مصطلح 'أعلى جودة بأفضل سعر'؟ هل هو أقل سعر فقط؟",
+        "expected_keywords": [
+            "أعلى جودة بأفضل سعر",
+            "كلفة مدة الاستخدام",
+            "ليس سعر الشراء فقط",
+            "تكلفة التشغيلية",
+            "تكلفة الصيانة"
+        ],
+        "expected_source": "UNOPS_eSourcing_Procedures-for-Suppliers-Arabic.pdf"
+    }
+]

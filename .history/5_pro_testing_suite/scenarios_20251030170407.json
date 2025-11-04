@@ -1,0 +1,65 @@
+[
+    {
+        "tenant_id": "perfume_shop_01",
+        "system_name": "بوابة المشتريات الإلكترونية للأمم المتحدة",
+        "tests": [
+            {
+                "id": "UN-01",
+                "question": "كيف اسجل في البوابة؟",
+                "expected_keywords": [
+                    "www.ungm.org",
+                    "التسجيل",
+                    "تسجيل الدخول",
+                    "UNOPS"
+                ]
+            },
+            {
+                "id": "UN-02",
+                "question": "ما معنى eSourcing؟",
+                "expected_keywords": [
+                    "eSourcing",
+                    "الشراء الإلكتروني",
+                    "مناقصات",
+                    "عطاءات"
+                ]
+            },
+            {
+                "id": "UN-03",
+                "question": "كم سعر برميل النفط؟",
+                "expected_keywords": []
+            }
+        ]
+    },
+    {
+        "tenant_id": "school_beta",
+        "system_name": "نظام إدارة طلبات الاعتماد",
+        "tests": [
+            {
+                "id": "SYS-01",
+                "question": "كيف أقدم طلب اعتماد جديد؟",
+                "expected_keywords": [
+                    "طلب جديد",
+                    "إقرار",
+                    "وثائق",
+                    "نموذج",
+                    "إرسال الطلب"
+                ]
+            },
+            {
+                "id": "SYS-02",
+                "question": "ماذا أفعل بعد دفع الفاتورة؟",
+                "expected_keywords": [
+                    "سداد الفاتورة",
+                    "قوائم التحقق",
+                    "اختبارات الكفاءة",
+                    "إرسال الطلب"
+                ]
+            },
+            {
+                "id": "SYS-03",
+                "question": "من أنت؟",
+                "expected_keywords": []
+            }
+        ]
+    }
+]

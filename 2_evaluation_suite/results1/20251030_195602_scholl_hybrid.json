@@ -1,0 +1,195 @@
+{
+    "report_info": {
+        "tenant_id": "scholl",
+        "retriever_type": "hybrid",
+        "timestamp": "2025-10-30T19:56:02.685510",
+        "embedding_model": "qwen3-embedding:4b",
+        "total_cases": 3
+    },
+    "evaluation_results": [
+        {
+            "case_id": "SCH-01",
+            "question": "كيف أرفع الواجب الفصلي (TMA)؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0.17,
+                "total_seconds": 0.23
+            },
+            "evaluation": {
+                "status": "✅ نجاح",
+                "final_score": 1.0,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "5/5",
+                    "found": [
+                        "Add Submission",
+                        "TMA",
+                        "إختيار المقرر",
+                        "إضافة التقديم",
+                        "رفع الواجبات الفصلية"
+                    ],
+                    "missing": []
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "4\n \n2  : خطوات رفع الواجبات الفصلية TMA رفع الواجبات الفصلية\n الخاصة بك:LMS الخطوة األولى: إختيار المقرر من صفحة\n الخطوة الثانية: الضغط على رابط تحميل الواجب\n ثم الضغط على Due Date الخطوة الثالثة: قبل بدء التسليم يرجى االنتباه إلى موعد انتهاء التسليم\n Add Submission إضافة التقديم\n\n    OCR Text from Image 1    \n+ No second attempt for quizzes and activities will be allowed.\n\n“+ Marks of the first attempt for quizzes and activities will be considered.\n\n‎ov stusents tinide 20v9 21 aocessinie‏ ها\n\n‎BD tute survey\n\n‎© 1114711 [TM477] Graduation Project Part 1\n\n‎Teacher Yousef 0771225 Graduation Project\nTeacher: Sherimon 0711362\n\n‎© 111355 [TM355] Communications Technology\nTeacher: Raja Wascern 0711010 Commurticotions Tesmlogy\n\n‎All courses \n    OCR Text from Image 2    \n15   Oman Home Dashboard My courses Site administration\n\nPRACTICAL SKILL (PPT)\n\nC  Library Template\n    OCR Text from Image 3    \ntest TMA\n\nlead TMA \nTest TMAdooe 15 February 2021  10 44 AM\n\nSubmission status\nSubmission No attempt\n\nGrading status Not isco\n\nTuoneay  2 March 2021  120 AM < —\nTime remaining 14 days 13 hours\nLast modified  \n\n+ | مد |\n\nYou have not made a submission yet.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": 1,
+                    "rerank_score": "7.3308"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "إدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‘Hussain All Alzahrani  lo\n\nطلبات التقييم.\n‎ap ote‏\n\n29/002020 ‏مطليفمطية‎ Gg At ‏العامة‎ ha\n\n11/10/2009 aise Ging Ae iy al\n\n11/10/2009 paises Aa ity al yal\n\nz2n7073 fant ycse Gig inl a\n\nsrore23 صصرطم‎ ١ ‏اليد‎ 565 0000١ SERVICES SAUOLARABALTO\n\n7 st\nedie\n75 wn\neine\n‏مولع عليه‎\n‏موق عليه‎\n\nYin ‏لج‎\n\n+ © هت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 14,
+                    "rerank_score": "6.8334"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "25\n \n \n \n بعد اختيار التصفيات المطلوبة من القائمة وعرض المواد المطلوبة يمكنك الغاء جميع التصفيات من\n خالل الضغط على زر إعادة ضبط التصفيات . \n ويمكنك أيضا من الشكل المجاور لزر التصفيات وهو االعمدة ان تحدد االعمدة الظاهرة في جدول\n :معلومات المواد الدراسية من خالل الضغط عليه وتحديد العمود وكما في الشكل االتي \n\n    OCR Text from Image 2    \n9)) وزارة التعليم العالي والبحث العلمي\n\n2 نظام إدارة الجامعات\n\nادارة الطلاب.\n\n‎ET‏ معلومات الطلاب\n\n‏4] طلبات التسجيل\n\n‏ادارة البرتامج الدراسي\nا البرامج الدراسية\n\n‎OA‏ المواد الدراسية\n\n‏325 الشعب والمجاميع\n\n‏الجدول الأسيوعى\n\n‏المواد الدراسية\n\n‏عدد المواد الدراسية\n\n‎7\n\n‏اسم المادة باللقة العربية\nاللغة العربية.\n\n‏رياضيات1\n\n‎cally ‏قواعد‎\n\n‏نظام التعليم الاكاديمي\n\n‏10 نظام بولونيا\n\n‏1 نظام بولونيا\n\n‎gle: ‏نظام‎ ]2\n\n‎plas‏ بولونيا\n\n‎6\n\n‎6\n\n‎sac‏ المواد الاجبارية\n\n‏رمز المادة\n\n‎06 3\n\n‎45\n\n‎0\n\n‎100000\n\n‏تصنيف المادة\n\n‏أساسية\n\n‏سائدة\n\n‏أساسية\n\n‏أساسية\n\n‎ww\n\n‏نوع النتيجة\n‎ae‏\n‏نجام /رسوب\n\n‏درجة\n\n‎5\n\n‏رئيس جامعة بقداد ‎١١‏\n‏وزارة التعليم العالي والبحث العلمي > جامعة بغداد\n\n‏عدد المواد الاختيارية\n\n‏حالة المادة\n\n‏رسوم المادة.\n\n‏ممما\n\n‏وما\n\n‎laps\n\n‎labo\n\n‎©\n    OCR Text from Image 3    \nالتعليم الاكاديعي\nنظام التعزيد\n\nالكل",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": 12,
+                    "rerank_score": "6.7332"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "الدراسة المكتبية:\n1\n .عند اعتماد فريق التقييم، ستظهر لك صفحة الدراس ة\nالمكتبية إلتمام عملية دراسة الوثائق وتقييمها.\n2\n .يمكنك التنقل عبر الفئات من خالل الضغط على الق وائم\nفي الجهة اليمنى، كما يمكنك تقييم البنود وفق ال ترتيب\nالمناسب لك.\n3\n .بعد اكتمال تقييم أعضاء الفريق، يقوم قائد الفري ق بإعادة\n الطلب إلى مسؤول االعتماد لمراجعته وإرساله للجهة\nلالطالع وعمل ما يلزم.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 3    \n© امون\n\n‎ant 2590‏ باللجمزة.\n© والمولد ‎Amati aats‏\nالمستخدمة في جهة.\nتقييم المطابقة 52م\n\n‏2904 قائمة بالعاملين.\n639 في جهة تقييم المطايقة\n\n‏اتموذج برنامج ‎Aisa‏\n‏69 البينية بين المختيرات\nواخثارات الكقامة 36ل\n\n‏© سمو\n\n‏أحقة أو وضع ‎eas pate‏\n\n‎Soa ae / ‏المعايرة‎\n‎Seat\n\n‏غي رمدم\n\n‎donee\n\n‎one we\n\n‏عي دمل\n\n‏عي رمدم\n\n‎eae ‏عي‎\n\n‎eae ne\n\n‎1111111\n\n‏0\n‏ع\n\n‎1\n    OCR Text from Image 6    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 8    \n‎cial Per)‏ / متطليات نظام الإحارة.\n\n‏823 هل تقوم الإدارة اعلا جهة التفئيش بنعيين عضو في > ‎ae.‏ النظر عن مستولياته 95 . لديه مسؤولية وصلاحية تشمل ما يلي\n\n‏نموذج قائمة بالأجهزة. التأكد من أن العمليات والإجرامات اللازمة لنظام الإدارة يتم إنشاؤها وتنفيذها والمحافظة ‎Mode‏ غير مدخ ‎eu‏ “\nاملد واتمعير المجعمة. تعديم ‎ee Aaa‏ عن أده نظام الإحاية وأي حاجة للتحسيو؟.\n\n‎‘og ‏المستخدمة‎",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 16,
+                    "rerank_score": "6.7102"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "اإلجراءات التصحيحية:\n4\n .بعد االنتهاء من تنفيذ اإلجراءات التصحيحية، تقوم ا لجهة\nبتقديم طلب اإلغالق، مضمنًا كافة الوثائق والشواه د\nالالزمة، وإرساله لمسؤول االعتماد.\n5\n .يقوم مسؤول االعتماد بدراسة الطلب، وإرسال مالحظات ه\nالمبدئية إلى الجهة للتصحيح أو إرسال الطلب إلى فري ق\nالتقييم للدراسة والمراجعة.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‎tate pores‏ مكبية ‎aa‏ اليجينت التصديحية\nالاالساااة! ‎A‏ سف سس السك نط1 السك حفط ‎LS‏\n\n‎Vou ‏خانا‎ cx mro ce 0 D :\n\n‏© اير\n‎at ©‏\n‎sae ©‏\n\n‎QD‏ طب رعق 0 3 3 3 ‎ABs Foor pean‏ الاجراة يه\n\n‎aun EB 00 55  : .‏ الم\n\n‏تحليل السيب الجذري لحالة عدم ‎Jaa sos Aba‏ الصحيح الذي سيلم ‎St‏\n‎att oot tas‏\n\n‎san suet ©‏ أن سم\n    OCR Text from Image 8    \n123456",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 21,
+                    "rerank_score": "6.6340"
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-02",
+            "question": "دخلت على المقرر، كيف أجد المحاضرات والكتاب؟",
+            "timing": {
+                "retrieval_seconds": 0.06,
+                "rerank_seconds": 0.17,
+                "total_seconds": 0.23
+            },
+            "evaluation": {
+                "status": "⚠️ جيد جزئيًا",
+                "final_score": 0.5,
+                "source_check": "✅",
+                "keyword_evaluation": {
+                    "score": "0/4",
+                    "found": [],
+                    "missing": [
+                        "my courses",
+                        "الكتاب الإلكتروني",
+                        "المحاضرات",
+                        "الملف المراد تحميله"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "وصف حالة استخدام بحث عن (المستخدمين، الاشتراكات) موضحة في الجدول 3.14\n\nجدول خطأ: لم يُعثر على مصدر المرجع.14 وصف حالة استخدام بحث عن (المستخدمين، معلومات الدفع، الاشتراكات)\n\nبحث عن (المستخدمين، معلومات الدفع، الاشتراكات) Case Name المدير Actors يتم عرض بيانات (المستخدمين، معلومات الدفع، الاشتراكات) المراد البحث عنها. Description يجب ان تكون قاعدة بيانات التطبيق موجودة أو أن يكون المدير متصل بالأنترنت يجب ان لا يكون نص البحث عشوائي او غير معبر عن أسماء (المستخدمين، معلومات الدفع، الاشتراكات). Precondition يفتح المدير واجهة بحث عن (المستخدمين، معلومات الدفع، الاشتراكات). يدخل المدير اسم (المستخدمين، معلومات الدفع، الاشتراكات) المراد البحث عنه. يقوم النظام بـ استرجاع وعرض قائمة (المستخدمين، الاشتراكات) المطابقة للبحث. Operations يتم عرض قائمة (المستخدمين، معلومات الدفع، الاشتراكات) المطابقة اسمائها لنص البحث بنجاح. Outputs إذا لم يستطع النظام إيجاد قاعدة بيانات التطبيق، يتم عرض رسالة خطأ، ويطلب من المستخدم او المدير الاتصال بالأنترنت لأول مرة فقط لتحميل البيانات. إذا كان نص البحث عشوائي وغير معبر عن أسماء (المستخدمين، معلومات الدفع، الاشتراكات) يعرض واجهة فارغة فيها رسالة تخبر المستخدم او المدير انه لا توجد نبات او آفات تطابق نص البحث. Exceptions\n\nوصف حالة استخدام تصفح التشخيصات السابقة موضحة في الجدول 3.15\n\nجدول خطأ: لم يُعثر على مصدر المرجع.15 وصف حالة استخدام تصفح التشخيصات السابقة",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/project/project.docx",
+                    "original_rank": 20,
+                    "rerank_score": "8.3261"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "إذا كنت مسجالً من قبل، يُرجى التأكد من أن معلومايك مكتملة\nUNOPS eSourcing training for Vendors v1.3\n13\n\n اذهب إلى www.ungm.org\n\n ةنقر فوق قسم\nالتسجيل\nعشإ وج الخصوب، ُرجإ مراجاة:\n جاات االيصال :عناو ن البر د اإللكتروني المستخدمة في اخيارام نظام الشراء اإل لكتروني\nلمكتب األمم المتحد لخدمام المشار ع\n الوكاالت :\n تد د من تسجةشك\n مورد لمكتب األمم المتحدد لخددمام المشدار ع حتدإ تدت مكن مدن\nاستخدام نظام الشراء اإللكتروني لمكتب األمم المتحد لخدمام المشار ع\n2\n .التسجيل في بوابة األمم المتحدة العالمية للمشتريات\n\n    OCR Text from Image 1    \n«4",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "original_rank": 22,
+                    "rerank_score": "8.1502"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "6\n وللتأكـد يكـون الملـف مرفق Submitted for grading الخطـوة السـابعة: تـم رفـع الملـف بنجـاح\nكمـا هـو موضـح بالصورة\n مالحظـة هامـــة: علـى الطالـب أن ال يقـوم بتعديـل ورفـع الملـف أو حـذف الملـف إال بعـد التأكـد\nمـن مـدرس المقـرر أن النظـام يسـمح لـه بالرفـع أكثـر مـن مـرة.\n\n    OCR Text from Image 1    \ntest TMA\n\ntest IMA\n\n8 lest IMAdoor 15 February 2021  1044 AM.\nSubmission status\n\nGrading status Not graded\n\n‘Due date veal  2 Mate 21023  12K AN\nTime remaining 14 tay 1? hours\nLast modified Moruday  15 Fetruary 2021  1102 AM\n\n15 February 2021  1102 AM\n\n‘edit submission emove submission\n    OCR Text from Image 2    \nSubmission status\n\n=\nstatus\n\nGrading status Not graded\n\nDue date Tuesday  2 March 2021  12:00 AM\n\nTime remaining 14 days 11 hours\n\nLast modified Monday  15 February 2021  11:02 AM\n\nFile submissions :\n‘WA Test TMAdocx 15 February 2021  11:02 AM\n\nEdit submission Remove submission 1",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/scholl/LMS Guideline.pdf",
+                    "original_rank": 10,
+                    "rerank_score": "7.9858"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "12\n \n9.\n المواد المختارة ،: يمكن إيجاد المواد المختارة وتظهر قائمة تحتوي على اسم المادة، نظام التعليم األكاديمي\n :والتشكيل في الهيكل التنظيمي، رمز المادة وحالة المادة موضحة في الشكل االتي \n \n10\n. حالة المواد المختارة: \n يمكن إيجاد حالة المواد المختارة وتظهر قائمة تحتوي على المواد المختارة مع حالتها\n والتي قد تكون من بين مجموعة من الحاالت مثل قيد االنتظار، قيد التدقيق، موافق، مرفوض وكما موضح\n:ادناه \n \n\n    OCR Text from Image 2    \nHala ‏كد رئيس جامعة‎ me\n\n‎LU 6  cays)‏ العالي والبحث العلمر\n‎(SS‏ وزارة التعليم العالي والبحث العلمي لله وزارة التعليم العالي والبحت العلمي > جامعة بغداد\n8459776151\n‎PA‏ نظام إدارة الجامعات\nكلمة المرور\n‎uhfuwhefuhig8478756‏\n‏ادارة الطلاب.\nالبرنامج الدراسي\n\n‎alll ‏معلومات‎ 1\n\n‏4] طلبات التسجيل\n\n‏ادارة اليرتامج الدراسي معلومات القبول السيرة الدراسية الرسوم الموادالمختارة <الةالموادالمختارة مدفوعات\n\n‏1 البرامج الدراسية\n\n‏المواد المختارة\nالمواد الدراسية.\nباحو وي اسم ‎dolall‏ نظام التعليم الأكاديمي الهيكل التنظيمي رمز المادة حالة المادة\nلعن الجدول الأسيوعى اللغة العربية. نظام بولونيا كلية طب الكندي 6517 03 قيد التخطيط\n\n‎4 0\n\n‏عرض نتيجة واحدة.\n    OCR Text from Image 4    \n9)) وزارة التعليم العالي والبحث العلمي\n\n‎FAY‏ نظام إدارة الجامعات\n\n‏ادارة الطلاب.\n1 معلومات ‎alll‏\n\n‏4] طلبات التسجيل\n\n‏ادارة اليرتامج الدراسي\n\n‏1 البرامج الدراسية\n\n‏المواد الدراسية.\n\n‏يج الشعب والمجاميع\n\n‏]ا الجدول الأسيوعى\n\n‏معلومات القيول\n\n‏السيرة الدراسية\n\n‏حالة المواد المختارة\n\n‏السيرة الدراسية.\n\n‏هندسة الحاسوب   المرحلة الأولى   الفصل الاول\n\n‏عرض نتيجة واحدة.\n\n‎aan ‏لكل‎",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": 11,
+                    "rerank_score": "7.8917"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "13\n \n11\n. مدفوعات الطالب : يمكن إيجاد قائمة مدفوعات الطالب في أسفل صفحة عرض معلومات الطالب وتتكون\n اسم الطالب، السعر، نوع الطلب، حالة الطلب، وطريقة الدفع وغيرها من معلومات الدفع الخاصة بالطالب\n:كما موضحة في الشكل ادناه \n \n2.4\n \n طلبات التسجيل \nعند الدخول الى ق سم طلبات التسجيل من القائمة الجانبية لواجهة النظام تظهر لك النافذة الخاصة بهذا\n القسم :حيث يظهر فيها ما يلي وكما في الشكل االتي \n2.4.1\n \n احصائيات طلبات التسجيل \n في واجهة قسم طلبات التسجيل يظهر شكالن في األعلى األول وعلى اليمين هو طلبات التدقيق\nالجامعة \n وطلبات التد قيق للذكور ولإلناث اما الشكل الثاني على اليسار يبين عدد الطلبة المسجلين \n الكلي وعدد\n :الطلبة المسجلين من االناث والذكور وكما في الشكل االتي \n\n    OCR Text from Image 2    \n2 كد رئيس جامعة ‎Hala‏\n\nاذ وزارة التعليم العالي والبحث العلمي نه «زارة التعليم العالي والبحث العلمي > جامعة بغداد\nكلمة المرور\n\nuhfuwhefuhfg8478756 ‏تظام إدارة الجامعات‎ Yn}\n‏البرنامج الدرانسي‎\n\nادارة الطلاب. 5\n\nalll ‏معلومات‎ 1\n\n4] طلبات التسجيل\n\nات القبول السيرة الدراسية الرسوم الموادالمختارة ذالةالموادالمختارة مدفوعات الطالب\nادارة البرتامج الدراسي.\nمدفوعات الطالب\n\nا البرامج الدراسية.\n\nالمواد الدراسية.\n\nباحو وي اسم الطالب السعر نوع ‎ails ull‏ الطلب. طريقة الدقع حالة الدقع السعر النهائي\n\nعن الجدول الأسيوعى نور محمد عبد محمد 66 000 ‎pending tabadul placed enrollment 1D‏ 66 000 مها\n\n2 10 aan\n\nعرض نتيجة واحدة.",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/unvirsity/دليل مستخدم نظام إدارة الجامعات_مدير الجامعة.pdf",
+                    "original_rank": 24,
+                    "rerank_score": "7.8275"
+                }
+            ]
+        },
+        {
+            "case_id": "SCH-03",
+            "question": "أريد التأكد من أن واجبي تم تسليمه بنجاح، كيف أعرف؟",
+            "timing": {
+                "retrieval_seconds": 0.07,
+                "rerank_seconds": 0.2,
+                "total_seconds": 0.27
+            },
+            "evaluation": {
+                "status": "❌ فشل",
+                "final_score": 0.0,
+                "source_check": "❌",
+                "keyword_evaluation": {
+                    "score": "0/4",
+                    "found": [],
+                    "missing": [
+                        "Submitted for grading",
+                        "الملف مرفق",
+                        "تم رفع الملف بنجاح",
+                        "حالة التقديم"
+                    ]
+                }
+            },
+            "retrieved_documents": [
+                {
+                    "final_rank": 1,
+                    "content": "اإلجراءات التصحيحية:\n8\n .\n بعد االنتهاء من تعديل كافة المالحظات، يقوم قائد\nالفريق بإعداد التقرير النهائي وإرساله لمسؤول االعتم\nاد.\n9\n .في حال اعتماد تنفيذ اإلجراءات التصحيحية، يقوم م سؤول\nاالعتماد باعتماد إغالق الطلب.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‎ot ©‏\n© معد\n09 صب عمف\n\n‎omen suena ‏بي‎\n\n‏د قوعم فق\n\n‎lo\n‎le\n‎lo\n‏م‎\n\n‎est ot at\nroared\n\n‏منج شهادات ممنجت والعمنات والخدمات.\n\n‎to",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 18,
+                    "rerank_score": "8.3902"
+                },
+                {
+                    "final_rank": 2,
+                    "content": "‏نموذج قائمة بالأجهزة. التأكد من أن العمليات والإجرامات اللازمة لنظام الإدارة يتم إنشاؤها وتنفيذها والمحافظة ‎Mode‏ غير مدخ ‎eu‏ “\nاملد واتمعير المجعمة. تعديم ‎ee Aaa‏ عن أده نظام الإحاية وأي حاجة للتحسيو؟.\n\n‎‘og ‏المستخدمة‎\n\n‎‘oi ‏هل جميع الوثائق والعمليات والأنظمة والسحلات إل المتعلقة باستيفاء متطليات 17020 150/166 ثم تخمينها أو الإشارة إلبها أو م ربطها بوثائق نظام‎ 8.24 omens\n\n‏انموذج ‎lal ab‏ 42.5 هل يمكن لجميع الأراد المشاكين في أنشطة التتيش الوصول إلى أجل ‎Ms‏ نظام الإدارة والمعلومات ذلت الصلة التي ‎Sn‏ على مسؤوليتهم؟.\n‎OQ‏ في جمة تشيم المطابقة\n\n‎aa‏ اسم الوتيقه ورمزها [الكود). رقم ‎idl‏ إختر الوثيقة.\n‎[ols] eto 3966 na wma a‏\n\n‏الينية بين المخياك\n\n‎oB 5 5 7 oe\n\n‏0 سس 0 معط | ‎sent)‏ أن موسي\n\n‎we ‏سجل‎\n    OCR Text from Image 10    \neae sew | see\n\noo\nee",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 25,
+                    "rerank_score": "8.1720"
+                },
+                {
+                    "final_rank": 3,
+                    "content": "إدارة الطلبات:\n1\n .بعد تسجيلك للدخول على النظام، ستظهر لك الصفحة ال رئيسية\nإلدارة الطلبات المسندة إليك.\n2\n .يمكنك مشاهدة الطلبات التي رُ شحت لها حديثً ا، كقائ د أو عضو\nفي فريق التقييم، حيث يطلب منك قبولها مبدئيً ا أو ر\nفضها.\nدلـيل استخـدام نظام إدارة طلبات االعتم\nاد\nاإلدارة العامة لتقنية المعلومات للمقيمين والخبراء–\n اإلصدار1.0\n\n    OCR Text from Image 2    \nAR\n\n3\n\nاد\n\n14\n\nالمركز السعودي للاعتماد\n‎Saudi Accreditation Center‏\n    OCR Text from Image 5    \n‘Hussain All Alzahrani  lo\n\nطلبات التقييم.\n‎ap ote‏\n\n29/002020 ‏مطليفمطية‎ Gg At ‏العامة‎ ha\n\n11/10/2009 aise Ging Ae iy al\n\n11/10/2009 paises Aa ity al yal\n\nz2n7073 fant ycse Gig inl a\n\nsrore23 صصرطم‎ ١ ‏اليد‎ 565 0000١ SERVICES SAUOLARABALTO\n\n7 st\nedie\n75 wn\neine\n‏مولع عليه‎\n‏موق عليه‎\n\nYin ‏لج‎\n\n+ © هت",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/accredit/accreditationsystemguideforassessors.pdf",
+                    "original_rank": 8,
+                    "rerank_score": "8.1192"
+                },
+                {
+                    "final_rank": 4,
+                    "content": "4\n .يقديم عرض بديل للمناقصة\nUNOPS eSourcing training for Vendors v1.3\n27\n\n مكنك تقد م عرض بد ل(عروض بد شة )\n ااا تم تحد دها في عالمدة التبو دب\nيفاصة يل المناقصةة\n تحت\nمعلومات المناقصة\n\n جدب تقدد م الادرض البدد ل(الادروض البد شدة )قبدل الموعدد النهدائي لشتقدد م المحددد فد ي عالمدة\n التبو ب معلومات عامة تحت\nمعلومات المناقصة\n\n باد قةامك بإرسال الرد عشإ المناقصة، وتكون حالتك يم التقةديم(الشدون األخضدر)، ف إند مكندك\n تقد م عرض بد ل(عروض بد شة )ااا تم السماح بذلك\n\n انتقل الدإ عالمدة تبو دب الصدفحة الرئةسدةة ) (الخاصدة بتقدد م الايداء وانقدر فد وق يقةديم\nعرض بديل\n4\n .نظام الشراء اإللكتروني لمكتب األمم المتحدة لخدمات المشاريع :لمحة عامة على الوظائو الرئيسية\n\n    OCR Text from Image 1    \n«4\n    OCR Text from Image 4    \nYour submission for UNOPS Tender RFP/2017/17882\n\nProvision of Explosive Threat Mitigation Training and Mentoring Services in\nsupport of UNMAS Mali\n\n| TENDERINFORMATION | VENDORCONFIRMATION | VENDOR SUBMISSION | EVALUATION CLARIFICATIONS\n\nPlease note that you must click the ‘Submit button under the Submit tab before the tender deadline in order for your submission to be received by UNOPS. Once done  your\n‘tender submission will display as ‘Submitted’ (green colour) in the status bar. If you have not submitted your vendor response the status bar will state ‘Draft (blue coloui).\n\n‘Submit an alternative offer\n    OCR Text from Image 5    \nRFP/2017/17875",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/un/UNOPS_eSourcing_eSourcing-system-Arabic.pdf",
+                    "original_rank": 20,
+                    "rerank_score": "8.0472"
+                },
+                {
+                    "final_rank": 5,
+                    "content": "وصف حالة استخدام الاشتراك في التطبيق موضحة في الجدول 3.16\n\nجدول خطأ: لم يُعثر على مصدر المرجع.16 وصف حالة استخدام الاشتراك في التطبيق\n\nالاشتراك في التطبيق Case Name المستخدم المدير Actors يتم اشتراك المستخدم في التطبيق. Description يجب ان تكون معلومات الدفع صحية. Precondition يضغط المستخدم على ايقونة الخيارات في الواجهة الرئيسية. يضغط المستخدم على الاشتراكات. يقوم النظام بـ استرجاع وعرض قائمة الاشتراكات المتوفرة. يختار المستخدم الاشتراك المناسب ويضغط على زر الحصول على الاشتراك. يقوم النظام بـ استرجاع وعرض قائمة بـ طرق الدفع المتاحة. يضغط المستخدم على زر انتقل الى الدفع. يدخل المستخدم معلومات الدفع ويضغط على زر تأكيد الدفع. يعرض النظام مربع حوار لحظي يخبر المستخدم \"عملية الدفع بانتظار التأكيد من قبل مدير النظام يرجى مراجعة صفحة عمليات الدفع للتأكد من العملية\". يضيف النظام تلميح إلى واجهة الاشتراكات في بطاقة الاشتراك المحدد عند الدفع يوضح ان الاشتراك بانتظار التأكيد. يضيف النظام معلومات الدفع والمستخدم المقدم لطلب الاشتراك في قائمة عمليات الدفع عند المدير. بعد ان يتأكد مدير النظام من صحة معلومات الدفع يقوم بتأكيد الاشتراك ويغير النظام نوع حساب المستخدم الى عميل مشترك. يقوم النظام بتحديث بيانات المستخدم المشترك. Operations يتم اشتراك المستخدم في التطبيق بنجاح. Outputs إذا كانت معلومات الدفع غير صالحة او غير مكتملة يضيف النظام تلميح إلى واجهة عمليات الدفع عند المستخدم يوضح ان عملية الدفع مرفوضة ويتيح للمستخدم التواصل مع فريق الدعم. Exceptions\n\nوصف حالة استخدام تغيير (اسم المستخدم، البريد الالكتروني، كلمة المرور) موضحة في الجدول 3.17",
+                    "source": "/home/mahdi/gith/copy_jop/4_client_docs/project/project.docx",
+                    "original_rank": 17,
+                    "rerank_score": "8.0232"
+                }
+            ]
+        }
+    ]
+}

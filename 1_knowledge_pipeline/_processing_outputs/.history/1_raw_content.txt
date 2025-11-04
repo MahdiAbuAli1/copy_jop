@@ -1,0 +1,478 @@
+--- إجمالي عدد الأجزاء: 2 ---
+
+--- Chunk 1 ---
+Metadata: {'source': '/home/mahdi/gith/copy_jop/4_client_docs/.history/التفيذ_20251102203344.txt'}
+---
+#لحذف قاعده المعرف
+rm -rf 3_shared_resources/vector_db/*
+
+#لانشاء قاعده المعرفه
+python 1_knowledge_pipeline/main_builder.py
+#تشغيل خادم ال API
+uvicorn 2_central_api_service.agent_app.main:app --reload
+
+
+
+python 1_knowledge_pipeline_ocr/main_builder.py
+
+حلو — خَلِّني أرتّب لك الوضع حالياً وببساطة: وش صار من اللوجات، وش لازم تشغّل الآن، وأهم الأوامر اللي تحتاجها (بدون هرجلة). كل شيء بالعربي وبأوامر جاهزة تنسخها وتلصقها في الطرفية.
+
+---
+
+## 1) الحالة الآن (مما نشاهد)
+
+* عندك صورة `ollama/ollama:latest` محلية (~3.24GB).
+* الحاوية المسماة `ollama` **موجودة لكن متوقفة** (`Exited`).
+* نظام Docker شغال.
+* `nvidia-smi` على المضيف يعرِف البطاقة (RTX 4060).
+* اختبار داخل حاوية مؤقتة `nvidia/cuda` نجح ويعرض الـ GPU — إذن إعداد NVIDIA Container Toolkit صحيح.
+
+---
+
+## 2) أوامر سريعة لبدء التشغيل والتأكد (نفّذها الآن)
+
+### أ — شغّل الحاوية `ollama`
+
+```bash
+sudo docker start ollama
+```
+
+### ب — تأكد أنها تعمل
+
+```bash
+sudo docker ps
+```
+
+> يجب أن ترى سطر للحاوية `ollama` مع `STATUS` = `Up`.
+
+### ج — راقب السجلات الحية أثناء التشغيل
+
+```bash
+sudo docker logs -f ollama
+```
+
+> استخدم Ctrl+C للخروج من المتابعة.
+
+### د — تأكد أن الحاوية ترى الـ GPU
+
+```bash
+sudo docker exec -it ollama nvidia-smi
+```
+
+> يجب أن يظهر `Processes` به عملية `ollama` أو استخدام ذاكرة GPU عند العمل.
+
+### هـ — تأكد من وجود النموذج داخل Ollama
+
+```bash
+  sudo docker exec -it ollama ollama list
+```
+
+### و — شغّل اختبار سريع للنموذج داخل الحاوية
+
+```bash
+sudo docker exec -it ollama ollama run qwen2:7b-instruct-q3_K_M "السلام عليكم"
+```
+
+---
+
+## 3) لو الحاوية اختفت أو تريد إنشاؤها من جديد
+
+> استخدم هذا الأمر لإنشاء/تشغيل الحاوية مع ربط فولم `ollama` وتمكين GPU:
+
+```bash
+sudo docker run -d --gpus all \
+  -v ollama:/root/.ollama \
+  -p 11434:11434 \
+  --name ollama \
+  ollama/ollama:latest
+```
+
+(إذا كانت موجودة مسبقًا وتريد إعادة إنشاء نسخة نظيفة احذف القديمة أولاً:
+
+```bash
+sudo docker rm ollama
+sudo docker run ...    # الأمر أعلاه
+```
+
+)
+
+---
+
+## 4) إذا أردت نسخ نموذج محلي (`.gguf` أو ملف نموذج) إلى فولم Ollama (بدون تحميل من الإنترنت)
+
+افترض الملف في `/home/mahdi/downloads/qwen.gguf`:
+
+```bash
+# انسخ الملف إلى فولم ollama عبر حاوية وسيطة
+sudo docker run --rm -v ollama:/data -v /home/mahdi/downloads:/src ubuntu bash -c "mkdir -p /data/models/blobs && cp /src/qwen.gguf /data/models/blobs/"
+# ثم أعد تشغيل Ollama ليتعرف على الملف
+sudo docker restart ollama
+# تحقق
+sudo docker exec -it ollama ollama list
+```
+
+---
+
+## 5) حذف نموذج داخل Ollama أو تحرير مساحة
+
+```bash
+# حذف نموذج عبر ollama CLI
+sudo docker exec -it ollama ollama rm qwen2:7b-instruct-q3_K_M
+
+# أو حذف ملف يدوياً داخل الفولدر (ادخل شل)
+sudo docker exec -it ollama bash
+rm -rf /root/.ollama/models/blobs/<sha256-...>
+exit
+# ثم تحقق وأعد تشغيل الحاوية
+sudo docker restart ollama
+```
+
+---
+
+## 6) نسخ احتياطي للـ models و vector_db
+
+```bash
+# نسخ محتوى فولم ollama إلى مجلد باكاب على المضيف
+sudo docker run --rm -v ollama:/data -v /home/mahdi/backups:/backup ubuntu bash -c "cp -r /data /backup/ollama_backup"
+
+# نسخ مجلد vector_db من مشروعك
+cp -r ~/projects/support_service_platform/3_shared_resources/vector_db ~/backups/vector_db_$(date +%F)
+```
+
+---
+
+## 7) تشغيل خادم الـ API (FastAPI) للمشروع (خارج Docker — من مشروعك)
+
+اذهب لمجلد الـ API ثم شغّل uvicorn:
+
+```bash
+cd ~/projects/support_service_platform/2_central_api_service/agent_app
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+> اختبر نقطة النهاية:
+
+```bash
+curl -X POST "http://127.0.0.1:8000/ask-stream" \
+ -H "x-api-key: your_super_secret_api_key_12345" \
+ -H "Content-Type: application/json" \
+ -d '{"question":"ما هي الطبقة التلافيفية؟","tenant_id":"school_beta"}'
+```
+
+---
+
+## 8) مكان حفظ التفاعلات (لو طبقت التعديل اللي أضفته لك)
+
+* السجلات تحفظ في مجلد المشروع وفق التعديل:
+  `~/projects/support_service_platform/agent_logs/` أو `.../agent_logs/<tenant_id>_interactions.txt`
+* تأكد أن `main.py` يستخدم `LOG_DIR` كما فصلنا سابقًا.
+
+---
+
+## 9) مراقبة الأداء أثناء التشغيل (مهم)
+
+شغّل نافذتين/ثلاث في الترمينال:
+
+* نافذة 1: `sudo docker logs -f ollama`
+* نافذة 2: `sudo docker exec -it ollama nvidia-smi` (مباشرة)
+* نافذة 3: شغل استعلامات إلى API أو `ollama run ...`
+
+مراقبة `nvidia-smi` أثناء استدعاءات النموذج تُظهر بشكل واضح أن الـ GPU يعمل (ارتفاع memory/GPU‑util).
+
+---
+
+## 10) أوامر مفيدة سريعة — شيت مختصر
+
+```bash
+# بدء/إيقاف/إعادة تشغيل
+sudo docker start ollama
+sudo docker stop ollama
+sudo docker restart ollama
+
+# قائمة الحاويات/الصور
+sudo docker ps -a
+sudo docker images
+
+# الدخول للحاوية
+sudo docker exec -it ollama bash
+
+# داخل الحاوية: فحص GPU و نماذج
+nvidia-smi
+ollama list
+ollama run <model> "سؤالك"
+ollama pull <model>   # لو أردت تحميل من الريموت
+
+# عرض السجلات
+sudo docker logs -f ollama
+
+# نسخ نموذج محلي إلى الفولم
+sudo docker run --rm -v ollama:/data -v /path/to/models:/src ubuntu bash -c "cp /src/*.gguf /data/models/blobs/"
+
+# حذف فولم (احذر!)
+sudo docker volume rm ollama
+```
+
+---
+
+## 11) لو واجهت مشكلة (خطأ تنزيل / EOF) — خطوات سريعة
+
+1. راجع السجلات:
+
+```bash
+sudo docker logs ollama | tail -n 200
+```
+
+2. إن كان خطأ `unexpected EOF` في التحميل — غالبًا شبكة. يمكنك:
+
+   * حذف الجزء الفاسد وإعادة `ollama pull <model>` داخل الحاوية.
+   * أو تحميل الملف `.gguf` خارجيًا ثم نسخه إلى الفولم كما فوق.
+
+---
+
+إذا تحب، أعمل لك الآن واحد من هذه:
+
+1. سكربت `start_all.sh` يشغّل الحاوية، يشغّل API، ويتحقق من GPU ثم يطبع حالة النماذج.
+2. أضيف لك أمرًا لحفظ كل التفاعلات في `agent_logs` (إذا لم تكن مفعّل).
+3. أريك كيف تفعل باكاب آلي للـ models يوميًا.
+
+أي واحد تريده أعمله فورًا وأعطيك الملف الجاهز؟
+
+
+--- Chunk 2 ---
+Metadata: {'source': '/home/mahdi/gith/copy_jop/4_client_docs/.history/التفيذ_20251102203234.txt'}
+---
+#لحذف قاعده المعرف
+rm -rf 3_shared_resources/vector_db/*
+
+#لانشاء قاعده المعرفه
+python 1_knowledge_pipeline/main_builder.py
+#تشغيل خادم ال API
+uvicorn 2_central_api_service.agent_app.main:app --reload
+
+
+
+python 1_knowledge_pipeline_ocr/main_builder.py
+
+حلو — خَلِّني أرتّب لك الوضع حالياً وببساطة: وش صار من اللوجات، وش لازم تشغّل الآن، وأهم الأوامر اللي تحتاجها (بدون هرجلة). كل شيء بالعربي وبأوامر جاهزة تنسخها وتلصقها في الطرفية.
+
+---
+
+## 1) الحالة الآن (مما نشاهد)
+
+* عندك صورة `ollama/ollama:latest` محلية (~3.24GB).
+* الحاوية المسماة `ollama` **موجودة لكن متوقفة** (`Exited`).
+* نظام Docker شغال.
+* `nvidia-smi` على المضيف يعرِف البطاقة (RTX 4060).
+* اختبار داخل حاوية مؤقتة `nvidia/cuda` نجح ويعرض الـ GPU — إذن إعداد NVIDIA Container Toolkit صحيح.
+
+---
+
+## 2) أوامر سريعة لبدء التشغيل والتأكد (نفّذها الآن)
+
+### أ — شغّل الحاوية `ollama`
+
+```bash
+sudo docker start ollama
+```
+
+### ب — تأكد أنها تعمل
+
+```bash
+sudo docker ps
+```
+
+> يجب أن ترى سطر للحاوية `ollama` مع `STATUS` = `Up`.
+
+### ج — راقب السجلات الحية أثناء التشغيل
+
+```bash
+sudo docker logs -f ollama
+```
+
+> استخدم Ctrl+C للخروج من المتابعة.
+
+### د — تأكد أن الحاوية ترى الـ GPU
+
+```bash
+sudo docker exec -it ollama nvidia-smi
+```
+
+> يجب أن يظهر `Processes` به عملية `ollama` أو استخدام ذاكرة GPU عند العمل.
+
+### هـ — تأكد من وجود النموذج داخل Ollama
+
+```bash
+  sudo docker exec -it ollama ollama list
+```
+
+### و — شغّل اختبار سريع للنموذج داخل الحاوية
+
+```bash
+sudo docker exec -it ollama ollama run qwen2:7b-instruct-q3_K_M "السلام عليكم"
+```
+
+---
+
+## 3) لو الحاوية اختفت أو تريد إنشاؤها من جديد
+
+> استخدم هذا الأمر لإنشاء/تشغيل الحاوية مع ربط فولم `ollama` وتمكين GPU:
+
+```bash
+sudo docker run -d --gpus all \
+  -v ollama:/root/.ollama \
+  -p 11434:11434 \
+  --name ollama \
+  ollama/ollama:latest
+```
+
+(إذا كانت موجودة مسبقًا وتريد إعادة إنشاء نسخة نظيفة احذف القديمة أولاً:
+
+```bash
+sudo docker rm ollama
+sudo docker run ...    # الأمر أعلاه
+```
+
+)
+
+---
+
+## 4) إذا أردت نسخ نموذج محلي (`.gguf` أو ملف نموذج) إلى فولم Ollama (بدون تحميل من الإنترنت)
+
+افترض الملف في `/home/mahdi/downloads/qwen.gguf`:
+
+```bash
+# انسخ الملف إلى فولم ollama عبر حاوية وسيطة
+sudo docker run --rm -v ollama:/data -v /home/mahdi/downloads:/src ubuntu bash -c "mkdir -p /data/models/blobs && cp /src/qwen.gguf /data/models/blobs/"
+# ثم أعد تشغيل Ollama ليتعرف على الملف
+sudo docker restart ollama
+# تحقق
+sudo docker exec -it ollama ollama list
+```
+
+---
+
+## 5) حذف نموذج داخل Ollama أو تحرير مساحة
+
+```bash
+# حذف نموذج عبر ollama CLI
+sudo docker exec -it ollama ollama rm qwen2:7b-instruct-q3_K_M
+
+# أو حذف ملف يدوياً داخل الفولدر (ادخل شل)
+sudo docker exec -it ollama bash
+rm -rf /root/.ollama/models/blobs/<sha256-...>
+exit
+# ثم تحقق وأعد تشغيل الحاوية
+sudo docker restart ollama
+```
+
+---
+
+## 6) نسخ احتياطي للـ models و vector_db
+
+```bash
+# نسخ محتوى فولم ollama إلى مجلد باكاب على المضيف
+sudo docker run --rm -v ollama:/data -v /home/mahdi/backups:/backup ubuntu bash -c "cp -r /data /backup/ollama_backup"
+
+# نسخ مجلد vector_db من مشروعك
+cp -r ~/projects/support_service_platform/3_shared_resources/vector_db ~/backups/vector_db_$(date +%F)
+```
+
+---
+
+## 7) تشغيل خادم الـ API (FastAPI) للمشروع (خارج Docker — من مشروعك)
+
+اذهب لمجلد الـ API ثم شغّل uvicorn:
+
+```bash
+cd ~/projects/support_service_platform/2_central_api_service/agent_app
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+> اختبر نقطة النهاية:
+
+```bash
+curl -X POST "http://127.0.0.1:8000/ask-stream" \
+ -H "x-api-key: your_super_secret_api_key_12345" \
+ -H "Content-Type: application/json" \
+ -d '{"question":"ما هي الطبقة التلافيفية؟","tenant_id":"school_beta"}'
+```
+
+---
+
+## 8) مكان حفظ التفاعلات (لو طبقت التعديل اللي أضفته لك)
+
+* السجلات تحفظ في مجلد المشروع وفق التعديل:
+  `~/projects/support_service_platform/agent_logs/` أو `.../agent_logs/<tenant_id>_interactions.txt`
+* تأكد أن `main.py` يستخدم `LOG_DIR` كما فصلنا سابقًا.
+
+---
+
+## 9) مراقبة الأداء أثناء التشغيل (مهم)
+
+شغّل نافذتين/ثلاث في الترمينال:
+
+* نافذة 1: `sudo docker logs -f ollama`
+* نافذة 2: `sudo docker exec -it ollama nvidia-smi` (مباشرة)
+* نافذة 3: شغل استعلامات إلى API أو `ollama run ...`
+
+مراقبة `nvidia-smi` أثناء استدعاءات النموذج تُظهر بشكل واضح أن الـ GPU يعمل (ارتفاع memory/GPU‑util).
+
+---
+
+## 10) أوامر مفيدة سريعة — شيت مختصر
+
+```bash
+# بدء/إيقاف/إعادة تشغيل
+sudo docker start ollama
+sudo docker stop ollama
+sudo docker restart ollama
+
+# قائمة الحاويات/الصور
+sudo docker ps -a
+sudo docker images
+
+# الدخول للحاوية
+sudo docker exec -it ollama bash
+
+# داخل الحاوية: فحص GPU و نماذج
+nvidia-smi
+ollama list
+ollama run <model> "سؤالك"
+ollama pull <model>   # لو أردت تحميل من الريموت
+
+# عرض السجلات
+sudo docker logs -f ollama
+
+# نسخ نموذج محلي إلى الفولم
+sudo docker run --rm -v ollama:/data -v /path/to/models:/src ubuntu bash -c "cp /src/*.gguf /data/models/blobs/"
+
+# حذف فولم (احذر!)
+sudo docker volume rm ollama
+```
+
+---
+
+## 11) لو واجهت مشكلة (خطأ تنزيل / EOF) — خطوات سريعة
+
+1. راجع السجلات:
+
+```bash
+sudo docker logs ollama | tail -n 200
+```
+
+2. إن كان خطأ `unexpected EOF` في التحميل — غالبًا شبكة. يمكنك:
+
+   * حذف الجزء الفاسد وإعادة `ollama pull <model>` داخل الحاوية.
+   * أو تحميل الملف `.gguf` خارجيًا ثم نسخه إلى الفولم كما فوق.
+
+---
+
+إذا تحب، أعمل لك الآن واحد من هذه:
+
+1. سكربت `start_all.sh` يشغّل الحاوية، يشغّل API، ويتحقق من GPU ثم يطبع حالة النماذج.
+2. أضيف لك أمرًا لحفظ كل التفاعلات في `agent_logs` (إذا لم تكن مفعّل).
+3. أريك كيف تفعل باكاب آلي للـ models يوميًا.
+
+أي واحد تريده أعمله فورًا وأعطيك الملف الجاهز؟
+
+
